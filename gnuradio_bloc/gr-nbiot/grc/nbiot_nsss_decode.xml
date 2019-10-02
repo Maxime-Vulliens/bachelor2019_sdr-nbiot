@@ -1,0 +1,15 @@
+<block>
+  <name>Nsss decode</name>
+  <key>nbiot_nsss_decode</key>
+  <category>[NBIOT]</category>
+  <import>import nbiot</import>
+  <make>nbiot.nsss_decode()</make>
+  <sink>
+    <name>in</name>
+    <type>complex</type>
+  </sink>
+  <source>
+    <name>out</name>
+    <type>complex</type>
+  </source>
+</block>

@@ -1,0 +1,15 @@
+<block>
+  <name>Remove cp</name>
+  <key>nbiot_remove_cp</key>
+  <category>[NBIOT]</category>
+  <import>import nbiot</import>
+  <make>nbiot.remove_cp()</make>
+  <sink>
+    <name>in</name>
+    <type>complex</type>
+  </sink>
+  <source>
+    <name>out</name>
+    <type>complex</type>
+  </source>
+</block>

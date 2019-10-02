@@ -1,0 +1,16 @@
+<block>
+  <name>Npss sync advanced</name>
+  <key>nbiot_npss_sync_advanced</key>
+  <category>[NBIOT]</category>
+  <import>import nbiot</import>
+  <make>nbiot.npss_sync_advanced()</make>
+  <sink>
+    <name>in</name>
+    <type>complex</type>
+  </sink>
+  <source>
+    <name>out</name>
+    <type>complex</type>
+    <nports>2</nports>
+  </source>
+</block>

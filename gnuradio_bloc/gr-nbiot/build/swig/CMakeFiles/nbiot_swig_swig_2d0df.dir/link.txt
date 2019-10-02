@@ -1,0 +1,1 @@
+/usr/bin/c++  -O3 -DNDEBUG  -rdynamic CMakeFiles/nbiot_swig_swig_2d0df.dir/nbiot_swig_swig_2d0df.cpp.o  -o nbiot_swig_swig_2d0df 

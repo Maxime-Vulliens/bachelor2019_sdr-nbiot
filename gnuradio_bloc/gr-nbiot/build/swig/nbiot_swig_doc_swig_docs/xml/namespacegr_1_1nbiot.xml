@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="namespacegr_1_1nbiot" kind="namespace" language="C++">
+    <compoundname>gr::nbiot</compoundname>
+    <innerclass refid="classgr_1_1nbiot_1_1custom__fft" prot="public">gr::nbiot::custom_fft</innerclass>
+    <innerclass refid="classgr_1_1nbiot_1_1npss__sync" prot="public">gr::nbiot::npss_sync</innerclass>
+    <innerclass refid="classgr_1_1nbiot_1_1npss__sync__advanced" prot="public">gr::nbiot::npss_sync_advanced</innerclass>
+    <innerclass refid="classgr_1_1nbiot_1_1nsss__decode" prot="public">gr::nbiot::nsss_decode</innerclass>
+    <innerclass refid="classgr_1_1nbiot_1_1remove__cp" prot="public">gr::nbiot::remove_cp</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/gnuradio/Desktop/gnubloc/gr-nbiot/include/nbiot/custom_fft.h" line="29" column="1"/>
+  </compounddef>
+</doxygen>

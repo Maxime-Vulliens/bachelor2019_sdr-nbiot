@@ -1,0 +1,15 @@
+<block>
+  <name>Custom fft</name>
+  <key>nbiot_custom_fft</key>
+  <category>[NBIOT]</category>
+  <import>import nbiot</import>
+  <make>nbiot.custom_fft()</make>
+  <sink>
+    <name>in</name>
+    <type>complex</type>
+  </sink>
+  <source>
+    <name>out</name>
+    <type>complex</type>
+  </source>
+</block>

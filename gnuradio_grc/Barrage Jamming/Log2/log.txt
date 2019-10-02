@@ -1,0 +1,1840 @@
+Warning: failed to XInitThreads()
+max_correlation : 0.00436239normalized correlation : 1.71752  offest : 1
+max_correlation : 0.639829normalized correlation : 22.1943  offest : 5978
+max_correlation : 0.639237normalized correlation : 21.8243  offest : 25178
+max_correlation : 0.659351normalized correlation : 23.2438  offest : 44378
+FFT: offset : 0 Size : 1 
+max_correlation : 0.639346normalized correlation : 22.8183  offest : 63577
+Decode nsss - frame : 2  cell : 1 correaltion magnitude : 75.872 average correaltion : 75.872
+max_correlation : 0.664841normalized correlation : 23.423  offest : 82777
+max_correlation : 0.635861normalized correlation : 22.3903  offest : 101978
+Decode nsss - frame : 3  cell : 1 correaltion magnitude : 79.4846 average correaltion : 77.6783
+max_correlation : 0.637013normalized correlation : 22.3386  offest : 121178
+max_correlation : 0.662007normalized correlation : 22.7566  offest : 140378
+Decode nsss - frame : 0  cell : 1 correaltion magnitude : 72.6434 average correaltion : 76
+max_correlation : 0.672503normalized correlation : 23.2174  offest : 159578
+max_correlation : 0.649729normalized correlation : 22.4427  offest : 178777
+Decode nsss - frame : 1  cell : 1 correaltion magnitude : 73.018 average correaltion : 75.2545
+max_correlation : 0.662377normalized correlation : 22.948  offest : 197977
+max_correlation : 0.623554normalized correlation : 21.6571  offest : 236376
+max_correlation : 0.630373normalized correlation : 21.9575  offest : 255576
+Decode nsss - frame : 3  cell : 1 correaltion magnitude : 81.6752 average correaltion : 76.5387
+max_correlation : 0.665271normalized correlation : 23.2395  offest : 274776
+max_correlation : 0.617667normalized correlation : 21.848  offest : 293976
+Decode nsss - frame : 0  cell : 1 correaltion magnitude : 74.4348 average correaltion : 76.188
+max_correlation : 0.652396normalized correlation : 23.0737  offest : 313176
+max_correlation : 0.644824normalized correlation : 22.9763  offest : 332376
+Decode nsss - frame : 1  cell : 1 correaltion magnitude : 76.8159 average correaltion : 76.2777
+max_correlation : 0.668489normalized correlation : 23.7357  offest : 351576
+max_correlation : 0.615451normalized correlation : 22.0146  offest : 370776
+Decode nsss - frame : 2  cell : 1 correaltion magnitude : 76.2824 average correaltion : 76.2783
+max_correlation : 0.624722normalized correlation : 22.3828  offest : 389975
+max_correlation : 0.637795normalized correlation : 22.904  offest : 409175
+Decode nsss - frame : 3  cell : 1 correaltion magnitude : 78.4731 average correaltion : 76.5222
+max_correlation : 0.633329normalized correlation : 22.742  offest : 428376
+max_correlation : 0.638325normalized correlation : 22.9863  offest : 447576
+Decode nsss - frame : 0  cell : 1 correaltion magnitude : 76.6385 average correaltion : 76.5338
+max_correlation : 0.66363normalized correlation : 23.8652  offest : 466775
+max_correlation : 0.657763normalized correlation : 23.7784  offest : 485976
+Decode nsss - frame : 1  cell : 1 correaltion magnitude : 78.3279 average correaltion : 76.6969
+max_correlation : 0.673713normalized correlation : 24.3138  offest : 505175
+max_correlation : 0.630541normalized correlation : 22.8632  offest : 524376
+Decode nsss - frame : 2  cell : 1 correaltion magnitude : 76.5339 average correaltion : 76.6833
+max_correlation : 0.671995normalized correlation : 24.3623  offest : 543575
+max_correlation : 0.659344normalized correlation : 23.9622  offest : 562775
+Decode nsss - frame : 3  cell : 1 correaltion magnitude : 75.9426 average correaltion : 76.6263
+max_correlation : 0.644023normalized correlation : 23.3888  offest : 581975
+max_correlation : 0.634015normalized correlation : 23.1037  offest : 601175
+Decode nsss - frame : 0  cell : 1 correaltion magnitude : 70.2312 average correaltion : 76.1695
+max_correlation : 0.663728normalized correlation : 24.1489  offest : 620376
+max_correlation : 0.669227normalized correlation : 24.4153  offest : 639574
+Decode nsss - frame : 1  cell : 1 correaltion magnitude : 70.7802 average correaltion : 75.8103
+max_correlation : 0.603789normalized correlation : 22.0091  offest : 658775
+max_correlation : 0.638568normalized correlation : 23.3294  offest : 677975
+Decode nsss - frame : 2  cell : 1 correaltion magnitude : 76.1246 average correaltion : 75.8299
+max_correlation : 0.645732normalized correlation : 23.5859  offest : 697175
+max_correlation : 0.664747normalized correlation : 24.3173  offest : 716374
+Decode nsss - frame : 3  cell : 1 correaltion magnitude : 78.1749 average correaltion : 75.9678
+max_correlation : 0.651673normalized correlation : 23.8419  offest : 735575
+max_correlation : 0.640948normalized correlation : 23.4663  offest : 754775
+Decode nsss - frame : 0  cell : 1 correaltion magnitude : 72.9497 average correaltion : 75.8002
+max_correlation : 0.680351normalized correlation : 24.8867  offest : 773974
+max_correlation : 0.648271normalized correlation : 23.7784  offest : 793175
+Decode nsss - frame : 1  cell : 1 correaltion magnitude : 77.2475 average correaltion : 75.8763
+max_correlation : 0.676401normalized correlation : 24.7944  offest : 812375
+max_correlation : 0.660755normalized correlation : 24.2605  offest : 831574
+Decode nsss - frame : 2  cell : 1 correaltion magnitude : 75.5842 average correaltion : 75.8617
+max_correlation : 0.632986normalized correlation : 23.2556  offest : 850774
+max_correlation : 0.649323normalized correlation : 23.9089  offest : 869974
+Decode nsss - frame : 3  cell : 1 correaltion magnitude : 79.8752 average correaltion : 76.0529
+max_correlation : 0.635144normalized correlation : 23.3841  offest : 889174
+max_correlation : 0.658993normalized correlation : 24.2795  offest : 908374
+Decode nsss - frame : 0  cell : 1 correaltion magnitude : 73.2135 average correaltion : 75.9238
+max_correlation : 0.646396normalized correlation : 23.7818  offest : 927575
+max_correlation : 0.639864normalized correlation : 23.592  offest : 946774
+Decode nsss - frame : 1  cell : 1 correaltion magnitude : 76.5253 average correaltion : 75.9499
+max_correlation : 0.65227normalized correlation : 24.0522  offest : 965974
+max_correlation : 0.656205normalized correlation : 24.2373  offest : 985174
+Decode nsss - frame : 2  cell : 1 correaltion magnitude : 75.4185 average correaltion : 75.9278
+max_correlation : 0.650688normalized correlation : 24.0321  offest : 1004374
+max_correlation : 0.642732normalized correlation : 23.7899  offest : 1023574
+Decode nsss - frame : 3  cell : 1 correaltion magnitude : 78.4614 average correaltion : 76.0292
+max_correlation : 0.645701normalized correlation : 23.8894  offest : 1042774
+max_correlation : 0.641014normalized correlation : 23.7598  offest : 1061974
+Decode nsss - frame : 0  cell : 1 correaltion magnitude : 73.0073 average correaltion : 75.9129
+max_correlation : 0.645537normalized correlation : 23.9099  offest : 1081174
+max_correlation : 0.647737normalized correlation : 24.0293  offest : 1100374
+Decode nsss - frame : 1  cell : 1 correaltion magnitude : 71.8239 average correaltion : 75.7615
+max_correlation : 0.658344normalized correlation : 24.3916  offest : 1119574
+max_correlation : 0.647342normalized correlation : 24.0359  offest : 1138774
+Decode nsss - frame : 2  cell : 1 correaltion magnitude : 75.239 average correaltion : 75.7428
+max_correlation : 0.653155normalized correlation : 24.2451  offest : 1157973
+max_correlation : 0.67631normalized correlation : 25.1139  offest : 1177173
+Decode nsss - frame : 3  cell : 1 correaltion magnitude : 77.4656 average correaltion : 75.8022
+max_correlation : 0.664926normalized correlation : 24.6652  offest : 1196373
+max_correlation : 0.666518normalized correlation : 24.689  offest : 1215574
+Decode nsss - frame : 0  cell : 1 correaltion magnitude : 75.0616 average correaltion : 75.7775
+max_correlation : 0.627941normalized correlation : 23.2293  offest : 1234773
+max_correlation : 0.653385normalized correlation : 24.144  offest : 1253973
+Decode nsss - frame : 1  cell : 1 correaltion magnitude : 73.4673 average correaltion : 75.703
+max_correlation : 0.653757normalized correlation : 24.1362  offest : 1273173
+max_correlation : 0.673242normalized correlation : 24.8279  offest : 1292373
+Dec
+0.1
+Warning: failed to XInitThreads()
+max_correlation : 0.0129577normalized correlation : 1.03969  offest : 1
+max_correlation : 0.62017normalized correlation : 22.2856  offest : 5978
+max_correlation : 0.648353normalized correlation : 22.4013  offest : 25178
+max_correlation : 0.648814normalized correlation : 22.6526  offest : 44377
+FFT: offset : 0 Size : 1 
+max_correlation : 0.64071normalized correlation : 22.6215  offest : 63578
+Decode nsss - frame : 2  cell : 1 correaltion magnitude : 74.6879 average correaltion : 74.6879
+max_correlation : 0.672515normalized correlation : 23.4933  offest : 82778
+max_correlation : 0.626603normalized correlation : 21.7802  offest : 101978
+Decode nsss - frame : 3  cell : 1 correaltion magnitude : 77.0956 average correaltion : 75.8918
+max_correlation : 0.667167normalized correlation : 22.9819  offest : 121177
+max_correlation : 0.60409normalized correlation : 20.6017  offest : 140378
+Decode nsss - frame : 0  cell : 1 correaltion magnitude : 70.633 average correaltion : 74.1388
+max_correlation : 0.655869normalized correlation : 22.4948  offest : 159577
+max_correlation : 0.634302normalized correlation : 21.6959  offest : 178777
+Decode nsss - frame : 1  cell : 1 correaltion magnitude : 72.5445 average correaltion : 73.7402
+max_correlation : 0.612379normalized correlation : 21.1311  offest : 197977
+max_correlation : 0.599122normalized correlation : 20.5909  offest : 217176
+Decode nsss - frame : 2  cell : 1 correaltion magnitude : 71.2195 average correaltion : 73.2361
+max_correlation : 0.654706normalized correlation : 22.5036  offest : 236376
+max_correlation : 0.636079normalized correlation : 21.8888  offest : 255576
+Decode nsss - frame : 3  cell : 1 correaltion magnitude : 78.9643 average correaltion : 74.1908
+max_correlation : 0.65969normalized correlation : 22.7329  offest : 274776
+max_correlation : 0.62022normalized correlation : 21.6021  offest : 293975
+Decode nsss - frame : 0  cell : 1 correaltion magnitude : 71.6623 average correaltion : 73.8296
+max_correlation : 0.642218normalized correlation : 22.3691  offest : 313176
+max_correlation : 0.636001normalized correlation : 22.3054  offest : 332376
+Decode nsss - frame : 1  cell : 1 correaltion magnitude : 77.2584 average correaltion : 74.2582
+max_correlation : 0.652854normalized correlation : 22.8857  offest : 351575
+max_correlation : 0.655472normalized correlation : 23.0876  offest : 370777
+Decode nsss - frame : 2  cell : 1 correaltion magnitude : 73.9178 average correaltion : 74.2204
+max_correlation : 0.661584normalized correlation : 23.2923  offest : 389976
+max_correlation : 0.640687normalized correlation : 22.6085  offest : 409176
+Decode nsss - frame : 3  cell : 1 correaltion magnitude : 80.3971 average correaltion : 74.8381
+max_correlation : 0.666406normalized correlation : 23.4562  offest : 428375
+max_correlation : 0.651133normalized correlation : 23.0473  offest : 447575
+Decode nsss - frame : 0  cell : 1 correaltion magnitude : 73.0303 average correaltion : 74.6737
+max_correlation : 0.634879normalized correlation : 22.4435  offest : 466776
+max_correlation : 0.646113normalized correlation : 22.9635  offest : 485975
+Decode nsss - frame : 1  cell : 1 correaltion magnitude : 74.6092 average correaltion : 74.6683
+max_correlation : 0.647563normalized correlation : 23.0303  offest : 505175
+max_correlation : 0.667771normalized correlation : 23.8713  offest : 524375
+Decode nsss - frame : 2  cell : 1 correaltion magnitude : 74.3752 average correaltion : 74.6458
+max_correlation : 0.657181normalized correlation : 23.4715  offest : 543576
+max_correlation : 0.662753normalized correlation : 23.7234  offest : 562775
+Decode nsss - frame : 3  cell : 1 correaltion magnitude : 78.5201 average correaltion : 74.9225
+max_correlation : 0.658363normalized correlation : 23.5559  offest : 581975
+max_correlation : 0.62255normalized correlation : 22.3118  offest : 601174
+Decode nsss - frame : 0  cell : 1 correaltion magnitude : 69.6809 average correaltion : 74.5731
+max_correlation : 0.65679normalized correlation : 23.4916  offest : 620375
+max_correlation : 0.666153normalized correlation : 23.907  offest : 639575
+Decode nsss - frame : 1  cell : 1 correaltion magnitude : 72.5963 average correaltion : 74.4495
+max_correlation : 0.65261normalized correlation : 23.3843  offest : 658775
+max_correlation : 0.600455normalized correlation : 21.5797  offest : 677974
+Decode nsss - frame : 2  cell : 1 correaltion magnitude : 74.4819 average correaltion : 74.4514
+max_correlation : 0.626604normalized correlation : 22.5471  offest : 697175
+max_correlation : 0.628738normalized correlation : 22.7003  offest : 716375
+Decode nsss - frame : 3  cell : 1 correaltion magnitude : 76.3739 average correaltion : 74.5583
+max_correlation : 0.64587normalized correlation : 23.3228  offest : 735575
+max_correlation : 0.640993normalized correlation : 23.1779  offest : 754775
+Decode nsss - frame : 0  cell : 1 correaltion magnitude : 74.0287 average correaltion : 74.5304
+max_correlation : 0.661153normalized correlation : 23.8946  offest : 773975
+max_correlation : 0.650572normalized correlation : 23.5607  offest : 793175
+Decode nsss - frame : 1  cell : 1 correaltion magnitude : 74.9997 average correaltion : 74.5538
+max_correlation : 0.649199normalized correlation : 23.4827  offest : 812374
+max_correlation : 0.685267normalized correlation : 24.8172  offest : 831574
+Decode nsss - frame : 2  cell : 1 correaltion magnitude : 75.0275 average correaltion : 74.5764
+max_correlation : 0.6232normalized correlation : 22.5559  offest : 850775
+max_correlation : 0.650164normalized correlation : 23.5835  offest : 869974
+Decode nsss - frame : 3  cell : 1 correaltion magnitude : 81.4445 average correaltion : 74.8886
+max_correlation : 0.657383normalized correlation : 23.8112  offest : 889174
+max_correlation : 0.628568normalized correlation : 22.8106  offest : 908374
+Decode nsss - frame : 0  cell : 1 correaltion magnitude : 68.2333 average correaltion : 74.5992
+max_correlation : 0.646454normalized correlation : 23.4461  offest : 927574
+max_correlation : 0.665972normalized correlation : 24.1828  offest : 946775
+Decode nsss - frame : 1  cell : 1 correaltion magnitude : 74.327 average correaltion : 74.5879
+max_correlation : 0.603508normalized correlation : 21.9195  offest : 965974
+max_correlation : 0.631728normalized correlation : 23.0032  offest : 985174
+Decode nsss - frame : 2  cell : 1 correaltion magnitude : 76.6127 average correaltion : 74.6689
+max_correlation : 0.611997normalized correlation : 22.2919  offest : 1004374
+max_correlation : 0.643977normalized correlation : 23.5009  offest : 1023574
+Decode nsss - frame : 3  cell : 1 correaltion magnitude : 73.8516 average correaltion : 74.6374
+max_correlation : 0.629824normalized correlation : 22.9702  offest : 1042773
+max_correlation : 0.638959normalized correlation : 23.361  offest : 1061974
+Decode nsss - frame : 0  cell : 1 correaltion magnitude : 72.809 average correaltion : 74.5697
+max_correlation : 0.659346normalized correlation : 24.0799  offest : 1081174
+max_correlation : 0.67314normalized correlation : 24.6126  offest : 1100374
+Decode nsss - frame : 1  cell : 1 correaltion magnitude : 73.7888 average correaltion : 74.5418
+max_correlation : 0.615483normalized correlation : 22.4982  offest : 1119574
+max_correlation : 0.623265normalized correlation : 22.8365  offest : 1138773
+Decode nsss - frame : 2  cell : 1 correaltion magnitude : 72.2447 average correaltion : 74.4626
+max_correlation : 0.632052normalized correlation : 23.1468  offest : 1157974
+max_correlation : 0.640742normalized correlation : 23.4942  offest : 1177173
+Decode nsss - frame : 3  cell : 1 correaltion magnitude : 76.9587 average correaltion : 74.5458
+max_correlation : 0.640489normalized correlation : 23.4762  offest : 1196373
+max_correlation : 0.662169normalized correlation : 24.225  offest : 1215574
+Decode nsss - frame : 0  cell : 1 correaltion magnitude : 69.7481 average correaltion : 74.3911
+max_correlation : 0.622087normalized correlation : 22.7259  offest : 1234774
+max_correlation : 0.651212normalized correlation : 23.7659  offest : 1253973
+Decode nsss - frame : 1  cell : 1 correaltion magnitude : 77.3479 average correaltion : 74.4835
+max_correlation : 0.6247normalized correlation : 22.8011  offest : 1273173
+max_correlation : 0.638598normalized correlation : 23.2948  offest : 1292373
+Decode nsss - frame : 2  cell : 1 correaltion magnitude : 67.5077 average correaltion : 74.2721
+max_correlation : 0.635086normalized correlation : 23.1673  offest : 1311574
+max_correlation : 0.647563normalized correlation : 23.5941  offest : 1330773
+Decode nsss - frame : 3  cell : 1 correaltion magnitude : 76.7584 average correaltion : 74.3452
+max_correlation : 0.632868normalized correlation : 23.0588  offest : 1349973
+max_correlation : 0.628476normalized correlation : 22.8897  offest : 1369173
+Decode nsss - frame : 0  cell : 1 correaltion magnitude : 73.7365 average correaltion : 74.3278
+max_correlation : 0.650284normalized correlation : 23.6662  offest : 1388373
+max_correlation : 0.650773normalized correlation : 23.6784  offest : 1407573
+Decode nsss - frame : 1  cell : 1 correaltion magnitude : 76.6623 average correaltion : 74.3926
+max_correlation : 0.637328normalized correlation : 23.1786  offest : 1426773
+max_correlation : 0.659985normalized correlation : 23.9994  offest : 1445974
+Decode nsss - frame : 2  cell : 1 correaltion magnitude : 69.9939 average correaltion : 74.2738
+max_correlation : 0.664988normalized correlation : 24.1794  offest : 1465173
+max_correlation : 0.656452normalized correlation : 23.8698  offest : 1484373
+Decode nsss - frame : 3  cell : 1 correaltion magnitude : 82.4189 average correaltion : 74.4881
+max_correlation : 0.640083normalized correlation : 23.2617  offest : 1503573
+max_correlation : 0.680863normalized correlation : 24.7712  offest : 1522772
+Decode nsss - frame : 0  cell : 1 correaltion magnitude : 71.2662 average correaltion : 74.4055
+max_correlation : 0.638058normalized correlation : 23.1998  offest : 1541973
+max_correlation : 0.610334normalized correlation : 22.2261  offest : 1561172
+Decode nsss - frame : 1  cell : 1 correaltion magnitude : 73.6634 average correaltion : 74.3869
+max_correlation : 0.672145normalized correlation : 24.4584  offest : 1580373
+max_correlation : 0.639712normalized correlation : 23.3201  offest : 1599573
+Decode nsss - frame : 2  cell : 1 correaltion magnitude : 75.5162 average correaltion : 74.4145
+max_correlation : 0.660074normalized correlation : 24.0569  offest : 1618772
+max_correlation : 0.590791normalized correlation : 21.5517  offest : 1637972
+Decode nsss - frame : 3  cell : 1 correaltion magnitude : 79.1113 average correaltion : 74.5263
+max_correlation : 0.657414normalized correlation : 23.9728  offest : 1657172
+max_correlation : 0.666669normalized correlation : 24.3321  offest : 1676373
+Decode nsss - frame : 0  cell : 1 correaltion magnitude : 74.2875 average correaltion : 74.5208
+max_correlation : 0.659507normalized correlation : 24.0564  offest : 1695572
+max_correlation : 0.616354normalized correlation : 22.5071  offest : 1714772
+Decode nsss - frame : 1  cell : 1 correaltion magnitude : 77.0086 average correaltion : 74.5773
+max_correlation : 0.6249normalized correlation : 22.8191  offest : 1733972
+max_correlation : 0.6617normalized correlation : 24.1833  offest : 1753170
+Decode nsss - frame : 2  cell : 1 correaltion magnitude : 74.7569 average correaltion : 74.5813
+max_correlation : 0.644617normalized correlation : 23.5452  offest : 1772370
+max_correlation : 0.65041normalized correlation : 23.7734  offest : 1791571
+Decode nsss - frame : 3  cell : 1 correaltion magnitude : 76.4518 average correaltion : 74.6219
+max_correlation : 0.638488normalized correlation : 23.2995  offest : 1810770
+max_correlation : 0.655676normalized correlation : 23.9434  offest : 1829970
+Decode nsss - frame : 0  cell : 1 correaltion magnitude : 71.0171 average correaltion : 74.5452
+max_correlation : 0.693345normalized correlation : 25.3015  offest : 1849170
+max_correlation : 0.629914normalized correlation : 23.0018  offest : 1868371
+Decode nsss - frame : 1  cell : 1 correaltion magnitude : 73.0365 average correaltion : 74.5138
+max_correlation : 0.687601normalized correlation : 25.0968  offest : 1887570
+max_corr
+0.105
+Warning: failed to XInitThreads()
+max_correlation : 0.00688435normalized correlation : 1.21788  offest : 1
+max_correlation : 0.647577normalized correlation : 22.4849  offest : 5977
+max_correlation : 0.680186normalized correlation : 22.035  offest : 25178
+max_correlation : 0.632487normalized correlation : 20.9561  offest : 44377
+FFT: offset : 0 Size : 2 
+max_correlation : 0.657932normalized correlation : 22.3476  offest : 63578
+Decode nsss - frame : 2  cell : 1 correaltion magnitude : 78.5394 average correaltion : 78.5394
+max_correlation : 0.639817normalized correlation : 21.8883  offest : 82778
+max_correlation : 0.632225normalized correlation : 21.5155  offest : 101977
+Decode nsss - frame : 3  cell : 1 correaltion magnitude : 79.6588 average correaltion : 79.0991
+max_correlation : 0.662804normalized correlation : 22.5653  offest : 121177
+max_correlation : 0.639236normalized correlation : 21.4371  offest : 140378
+Decode nsss - frame : 0  cell : 1 correaltion magnitude : 71.684 average correaltion : 76.6274
+max_correlation : 0.645826normalized correlation : 21.8013  offest : 159577
+max_correlation : 0.655805normalized correlation : 22.0143  offest : 178777
+Decode nsss - frame : 1  cell : 1 correaltion magnitude : 70.7594 average correaltion : 75.1604
+max_correlation : 0.636359normalized correlation : 21.4012  offest : 197977
+max_correlation : 0.593902normalized correlation : 19.9894  offest : 217177
+Decode nsss - frame : 2  cell : 1 correaltion magnitude : 74.8243 average correaltion : 75.0932
+max_correlation : 0.660108normalized correlation : 22.2623  offest : 236376
+max_correlation : 0.66007normalized correlation : 22.3334  offest : 255576
+Decode nsss - frame : 3  cell : 1 correaltion magnitude : 77.0993 average correaltion : 75.4275
+max_correlation : 0.635847normalized correlation : 21.626  offest : 274776
+max_correlation : 0.669478normalized correlation : 22.9557  offest : 293976
+Decode nsss - frame : 0  cell : 1 correaltion magnitude : 72.8783 average correaltion : 75.0634
+max_correlation : 0.661852normalized correlation : 22.7084  offest : 313176
+max_correlation : 0.631645normalized correlation : 21.8243  offest : 332376
+Decode nsss - frame : 1  cell : 1 correaltion magnitude : 76.9131 average correaltion : 75.2946
+max_correlation : 0.652871normalized correlation : 22.5073  offest : 351576
+max_correlation : 0.610254normalized correlation : 21.2015  offest : 370776
+Decode nsss - frame : 2  cell : 1 correaltion magnitude : 75.348 average correaltion : 75.3005
+max_correlation : 0.624131normalized correlation : 21.7394  offest : 389975
+max_correlation : 0.649277normalized correlation : 22.703  offest : 409175
+Decode nsss - frame : 3  cell : 1 correaltion magnitude : 78.6899 average correaltion : 75.6395
+max_correlation : 0.612764normalized correlation : 21.4585  offest : 428376
+max_correlation : 0.690227normalized correlation : 24.2302  offest : 447576
+Decode nsss - frame : 0  cell : 1 correaltion magnitude : 76.1266 average correaltion : 75.6837
+max_correlation : 0.64064normalized correlation : 22.4798  offest : 466777
+max_correlation : 0.670955normalized correlation : 23.5762  offest : 485975
+Decode nsss - frame : 1  cell : 1 correaltion magnitude : 72.3651 average correaltion : 75.4072
+max_correlation : 0.628773normalized correlation : 22.0634  offest : 505175
+max_correlation : 0.656202normalized correlation : 23.1607  offest : 524376
+Decode nsss - frame : 2  cell : 1 correaltion magnitude : 69.9377 average correaltion : 74.9865
+max_correlation : 0.655167normalized correlation : 23.1378  offest : 543575
+max_correlation : 0.658759normalized correlation : 23.3194  offest : 562774
+Decode nsss - frame : 3  cell : 1 correaltion magnitude : 74.2813 average correaltion : 74.9361
+max_correlation : 0.627975normalized correlation : 22.2157  offest : 581975
+max_correlation : 0.621924normalized correlation : 22.0337  offest : 601175
+Decode nsss - frame : 0  cell : 1 correaltion magnitude : 69.9632 average correaltion : 74.6046
+max_correlation : 0.642918normalized correlation : 22.7421  offest : 620375
+max_correlation : 0.652721normalized correlation : 23.1802  offest : 639575
+Decode nsss - frame : 1  cell : 1 correaltion magnitude : 72.5736 average correaltion : 74.4776
+max_correlation : 0.646515normalized correlation : 22.9388  offest : 658775
+max_correlation : 0.670944normalized correlation : 23.8479  offest : 677975
+Decode nsss - frame : 2  cell : 1 correaltion magnitude : 74.8351 average correaltion : 74.4986
+max_correlation : 0.626956normalized correlation : 22.2963  offest : 697174
+max_correlation : 0.628933normalized correlation : 22.4236  offest : 716375
+Decode nsss - frame : 3  cell : 1 correaltion magnitude : 71.5618 average correaltion : 74.3355
+max_correlation : 0.670479normalized correlation : 23.8911  offest : 735576
+max_correlation : 0.650794normalized correlation : 23.2432  offest : 754775
+Decode nsss - frame : 0  cell : 1 correaltion magnitude : 69.02 average correaltion : 74.0557
+max_correlation : 0.666652normalized correlation : 23.8008  offest : 773975
+max_correlation : 0.62948normalized correlation : 22.5136  offest : 793175
+Decode nsss - frame : 1  cell : 1 correaltion magnitude : 75.5554 average correaltion : 74.1307
+max_correlation : 0.647438normalized correlation : 23.1329  offest : 812374
+max_correlation : 0.624936normalized correlation : 22.3751  offest : 831575
+Decode nsss - frame : 2  cell : 1 correaltion magnitude : 69.4671 average correaltion : 73.9086
+max_correlation : 0.613469normalized correlation : 21.9496  offest : 850775
+max_correlation : 0.630922normalized correlation : 22.6176  offest : 869974
+Decode nsss - frame : 3  cell : 1 correaltion magnitude : 75.383 average correaltion : 73.9757
+max_correlation : 0.633339normalized correlation : 22.6732  offest : 889174
+max_correlation : 0.611781normalized correlation : 21.9425  offest : 908374
+Decode nsss - frame : 0  cell : 1 correaltion magnitude : 71.6326 average correaltion : 73.8738
+max_correlation : 0.629335normalized correlation : 22.5543  offest : 927575
+max_correlation : 0.66125normalized correlation : 23.7196  offest : 946774
+Decode nsss - frame : 1  cell : 1 correaltion magnitude : 67.0967 average correaltion : 73.5914
+max_correlation : 0.627771normalized correlation : 22.5078  offest : 965974
+max_correlation : 0.660335normalized correlation : 23.7345  offest : 985175
+Decode nsss - frame : 2  cell : 1 correaltion magnitude : 71.3076 average correaltion : 73.5001
+max_correlation : 0.676931normalized correlation : 24.3393  offest : 1004374
+max_correlation : 0.647596normalized correlation : 23.3296  offest : 1023575
+Decode nsss - frame : 3  cell : 1 correaltion magnitude : 77.1133 average correaltion : 73.639
+max_correlation : 0.653858normalized correlation : 23.5429  offest : 1042774
+max_correlation : 0.632349normalized correlation : 22.7981  offest : 1061974
+Decode nsss - frame : 0  cell : 1 correaltion magnitude : 72.4677 average correaltion : 73.5956
+max_correlation : 0.619472normalized correlation : 22.3036  offest : 1081174
+max_correlation : 0.669172normalized correlation : 24.12  offest : 1100374
+Decode nsss - frame : 1  cell : 1 correaltion magnitude : 69.0996 average correaltion : 73.4351
+max_correlation : 0.65003normalized correlation : 23.4066  offest : 1119574
+max_correlation : 0.663397normalized correlation : 23.9291  offest : 1138774
+Decode nsss - frame : 2  cell : 1 correaltion magnitude : 75.1062 average correaltion : 73.4927
+max_correlation : 0.63207normalized correlation : 22.8014  offest : 1157974
+max_correlation : 0.651342normalized correlation : 23.5183  offest : 1177174
+Decode nsss - frame : 3  cell : 1 correaltion magnitude : 82.8535 average correaltion : 73.8047
+max_correlation : 0.635853normalized correlation : 22.9488  offest : 1196374
+max_correlation : 0.655919normalized correlation : 23.6165  offest : 1215573
+Decode nsss - frame : 0  cell : 1 correaltion magnitude : 73.3486 average correaltion : 73.79
+max_correlation : 0.665706normalized correlation : 23.953  offest : 1234773
+max_correlation : 0.623094normalized correlation : 22.3889  offest : 1253974
+Decode nsss - frame : 1  cell : 1 correaltion magnitude : 71.2067 average correaltion : 73.7093
+max_correlation : 0.631732normalized correlation : 22.7021  offest : 1273173
+max_correlation : 0.636254normalized correlation : 22.8475  offest : 1292374
+Decode nsss - frame : 2  cell : 1 correaltion magnitude : 70.231 average correaltion : 73.6039
+max_correlation : 0.620619normalized correlation : 22.2828  offest : 1311574
+max_correlation : 0.638988normalized correlation : 22.9046  offest : 1330773
+Decode nsss - frame : 3  cell : 1 correaltion magnitude : 78.9678 average correaltion : 73.7617
+max_correlation : 0.629434normalized correlation : 22.5428  offest : 1349973
+max_correlation : 0.623042normalized correlation : 22.3027  offest : 1369173
+Decode nsss - frame : 0  cell : 1 correaltion magnitude : 69.1123 average correaltion : 73.6288
+max_correlation : 0.628415normalized correlation : 22.4733  offest : 1388373
+max_correlation : 0.640472normalized correlation : 22.8754  offest : 1407573
+Decode nsss - frame : 1  cell : 1 correaltion magnitude : 71.3004 average correaltion : 73.5641
+max_correlation : 0.661017normalized correlation : 23.5865  offest : 1426773
+max_correlation : 0.648968normalized correlation : 23.163  offest : 1445974
+Decode nsss - frame : 2  cell : 1 correaltion magnitude : 72.3177 average correaltion : 73.5304
+max_correlation : 0.647568normalized correlation : 23.1174  offest : 1465172
+max_correlation : 0.642083normalized correlation : 22.9084  offest : 1484373
+Decode nsss - frame : 3  cell : 1 correaltion magnitude : 80.2101 average correaltion : 73.7062
+max_correlation : 0.631673normalized correlation : 22.5266  offest : 1503572
+max_correlation : 0.621858normalized correlation : 22.206  offest : 1522772
+Decode nsss - frame : 0  cell : 1 correaltion magnitude : 74.174 average correaltion : 73.7182
+max_correlation : 0.646348normalized correlation : 23.0876  offest : 1541972
+max_correlation : 0.651515normalized correlation : 23.3002  offest : 1561173
+Decode nsss - frame : 1  cell : 1 correaltion magnitude : 77.9449 average correaltion : 73.8239
+max_correlation : 0.63637normalized correlation : 22.7437  offest : 1580372
+max_correlation : 0.659274normalized correlation : 23.6063  offest : 1599572
+Decode nsss - frame : 2  cell : 1 correaltion magnitude : 75.8507 average correaltion : 73.8733
+max_correlation : 0.674766normalized correlation : 24.1471  offest : 1618773
+max_correlation : 0.626698normalized correlation : 22.4467  offest : 1637972
+Decode nsss - frame : 3  cell : 1 correaltion magnitude : 75.5109 average correaltion : 73.9123
+max_correlation : 0.611683normalized correlation : 21.9135  offest : 1657172
+max_correlation : 0.642312normalized correlation : 23.0394  offest : 1676372
+Decode nsss - frame : 0  cell : 1 correaltion magnitude : 70.9994 average correaltion : 73.8446
+max_correlation : 0.649611normalized correlation : 23.3007  offest : 1695572
+max_correlation : 0.663927normalized correlation : 23.8183  offest : 1714772
+Decode nsss - frame : 1  cell : 1 correaltion magnitude : 74.1526 average correaltion : 73.8516
+max_correlation : 0.657472normalized correlation : 23.5875  offest : 1733972
+max_correlation : 0.629767normalized correlation : 22.6074  offest : 1753170
+Decode nsss - frame : 2  cell : 1 correaltion magnitude : 71.8181 average correaltion : 73.8064
+max_correlation : 0.636024normalized correlation : 22.8126  offest : 1772370
+max_correlation : 0.637283normalized correlation : 22.8744  offest : 1791571
+Decode nsss - frame : 3  cell : 1 correaltion magnitude : 76.8739 average correaltion : 73.8731
+max_correlation : 0.63718normalized correlation : 22.8318  offest : 1810770
+max_correlation : 0.683693normalized correlation : 24.5126  offest : 1829971
+Decode nsss - frame : 0  cell : 1 correaltion magnitude : 68.3922 average correaltion : 73.7564
+max_correlation : 0.668482normalized correlation : 23.9372  offest : 1849170
+max_correlation : 0.658449normalized correlation : 23.59  offest : 1868370
+Decode nsss - frame : 1  cell : 1 correaltion magnitude : 72.354 average correaltion : 73.7272
+max_correlation : 0.672127normalized correlation : 24.0658  offest : 1887570
+max_correla
+0.11
+Warning: failed to XInitThreads()
+max_correlation : 0.00518389normalized correlation : 0.815261  offest : 1
+max_correlation : 0.668686normalized correlation : 22.2086  offest : 5978
+max_correlation : 0.629144normalized correlation : 20.5632  offest : 25177
+max_correlation : 0.641381normalized correlation : 21.6041  offest : 44379
+FFT: offset : 0 Size : 1 
+max_correlation : 0.677181normalized correlation : 22.9513  offest : 63578
+Decode nsss - frame : 2  cell : 1 correaltion magnitude : 72.6669 average correaltion : 72.6669
+max_correlation : 0.632105normalized correlation : 21.5326  offest : 82777
+max_correlation : 0.6499normalized correlation : 22.0297  offest : 101977
+Decode nsss - frame : 3  cell : 1 correaltion magnitude : 73.3847 average correaltion : 73.0258
+max_correlation : 0.669587normalized correlation : 22.7542  offest : 121178
+max_correlation : 0.650057normalized correlation : 21.7888  offest : 140378
+Decode nsss - frame : 0  cell : 1 correaltion magnitude : 70.2151 average correaltion : 72.0889
+max_correlation : 0.619539normalized correlation : 20.8523  offest : 159577
+max_correlation : 0.635803normalized correlation : 21.3289  offest : 178777
+Decode nsss - frame : 1  cell : 1 correaltion magnitude : 73.3178 average correaltion : 72.3961
+max_correlation : 0.693807normalized correlation : 23.3197  offest : 197977
+max_correlation : 0.596548normalized correlation : 20.0825  offest : 236376
+max_correlation : 0.661984normalized correlation : 22.3016  offest : 255576
+Decode nsss - frame : 3  cell : 1 correaltion magnitude : 76.3236 average correaltion : 73.1816
+max_correlation : 0.635655normalized correlation : 21.4629  offest : 274776
+max_correlation : 0.646094normalized correlation : 22.0368  offest : 293976
+Decode nsss - frame : 0  cell : 1 correaltion magnitude : 69.7245 average correaltion : 72.6054
+max_correlation : 0.653009normalized correlation : 22.2349  offest : 313176
+max_correlation : 0.618079normalized correlation : 21.1722  offest : 332375
+Decode nsss - frame : 1  cell : 1 correaltion magnitude : 75.3003 average correaltion : 72.9904
+max_correlation : 0.654684normalized correlation : 22.3756  offest : 351576
+max_correlation : 0.661312normalized correlation : 22.722  offest : 370776
+Decode nsss - frame : 2  cell : 1 correaltion magnitude : 72.68 average correaltion : 72.9516
+max_correlation : 0.65086normalized correlation : 22.4196  offest : 389975
+max_correlation : 0.648418normalized correlation : 22.3941  offest : 409176
+Decode nsss - frame : 3  cell : 1 correaltion magnitude : 74.4137 average correaltion : 73.1141
+max_correlation : 0.669553normalized correlation : 23.1029  offest : 428375
+max_correlation : 0.646719normalized correlation : 22.3912  offest : 447575
+Decode nsss - frame : 0  cell : 1 correaltion magnitude : 70.6971 average correaltion : 72.8724
+max_correlation : 0.698605normalized correlation : 24.0911  offest : 466776
+max_correlation : 0.67256normalized correlation : 23.3344  offest : 485975
+Decode nsss - frame : 1  cell : 1 correaltion magnitude : 67.2856 average correaltion : 72.3645
+max_correlation : 0.649183normalized correlation : 22.4968  offest : 505176
+max_correlation : 0.651674normalized correlation : 22.6645  offest : 524375
+Decode nsss - frame : 2  cell : 1 correaltion magnitude : 67.914 average correaltion : 71.9936
+max_correlation : 0.64946normalized correlation : 22.5458  offest : 543575
+max_correlation : 0.651886normalized correlation : 22.678  offest : 562775
+Decode nsss - frame : 3  cell : 1 correaltion magnitude : 75.7933 average correaltion : 72.2859
+max_correlation : 0.637035normalized correlation : 22.1718  offest : 581975
+max_correlation : 0.654523normalized correlation : 22.8218  offest : 601175
+Decode nsss - frame : 0  cell : 1 correaltion magnitude : 73.464 average correaltion : 72.37
+max_correlation : 0.669608normalized correlation : 23.3132  offest : 620374
+max_correlation : 0.626003normalized correlation : 21.881  offest : 639575
+Decode nsss - frame : 1  cell : 1 correaltion magnitude : 71.4725 average correaltion : 72.3102
+max_correlation : 0.656365normalized correlation : 22.9222  offest : 658774
+max_correlation : 0.638551normalized correlation : 22.343  offest : 677975
+Decode nsss - frame : 2  cell : 1 correaltion magnitude : 70.7441 average correaltion : 72.2123
+max_correlation : 0.6356normalized correlation : 22.2563  offest : 697175
+max_correlation : 0.660714normalized correlation : 23.184  offest : 716375
+Decode nsss - frame : 3  cell : 1 correaltion magnitude : 74.5241 average correaltion : 72.3483
+max_correlation : 0.642306normalized correlation : 22.5449  offest : 735575
+max_correlation : 0.6208normalized correlation : 21.8376  offest : 754775
+Decode nsss - frame : 0  cell : 1 correaltion magnitude : 70.1546 average correaltion : 72.2264
+max_correlation : 0.672715normalized correlation : 23.6468  offest : 773975
+max_correlation : 0.660079normalized correlation : 23.2264  offest : 793175
+Decode nsss - frame : 1  cell : 1 correaltion magnitude : 74.1802 average correaltion : 72.3293
+max_correlation : 0.661726normalized correlation : 23.2537  offest : 812374
+max_correlation : 0.651426normalized correlation : 22.9494  offest : 831575
+Decode nsss - frame : 2  cell : 1 correaltion magnitude : 71.707 average correaltion : 72.2981
+max_correlation : 0.674802normalized correlation : 23.7562  offest : 850775
+max_correlation : 0.650384normalized correlation : 22.931  offest : 869975
+Decode nsss - frame : 3  cell : 1 correaltion magnitude : 73.664 average correaltion : 72.3632
+max_correlation : 0.698874normalized correlation : 24.6299  offest : 889175
+max_correlation : 0.65372normalized correlation : 23.0559  offest : 908374
+Decode nsss - frame : 0  cell : 1 correaltion magnitude : 73.515 average correaltion : 72.4155
+max_correlation : 0.656695normalized correlation : 23.1599  offest : 927574
+max_correlation : 0.625521normalized correlation : 22.1056  offest : 946774
+Decode nsss - frame : 1  cell : 1 correaltion magnitude : 73.931 average correaltion : 72.4814
+max_correlation : 0.670326normalized correlation : 23.6772  offest : 965975
+max_correlation : 0.683915normalized correlation : 24.1762  offest : 985174
+Decode nsss - frame : 2  cell : 1 correaltion magnitude : 74.1641 average correaltion : 72.5516
+max_correlation : 0.656273normalized correlation : 23.1754  offest : 1004375
+max_correlation : 0.609913normalized correlation : 21.5952  offest : 1023574
+Decode nsss - frame : 3  cell : 1 correaltion magnitude : 74.5197 average correaltion : 72.6303
+max_correlation : 0.676611normalized correlation : 23.9499  offest : 1042774
+max_correlation : 0.669824normalized correlation : 23.7416  offest : 1061974
+Decode nsss - frame : 0  cell : 1 correaltion magnitude : 67.7902 average correaltion : 72.4441
+max_correlation : 0.644236normalized correlation : 22.8272  offest : 1081174
+max_correlation : 0.644808normalized correlation : 22.8902  offest : 1100374
+Decode nsss - frame : 1  cell : 1 correaltion magnitude : 76.1266 average correaltion : 72.5805
+max_correlation : 0.654327normalized correlation : 23.2152  offest : 1119574
+max_correlation : 0.672092normalized correlation : 23.8743  offest : 1138774
+Decode nsss - frame : 2  cell : 1 correaltion magnitude : 75.8416 average correaltion : 72.697
+max_correlation : 0.630608normalized correlation : 22.3967  offest : 1157974
+max_correlation : 0.66166normalized correlation : 23.5262  offest : 1177173
+Decode nsss - frame : 3  cell : 1 correaltion magnitude : 71.6581 average correaltion : 72.6612
+max_correlation : 0.640628normalized correlation : 22.763  offest : 1196374
+max_correlation : 0.641906normalized correlation : 22.7877  offest : 1215573
+Decode nsss - frame : 0  cell : 1 correaltion magnitude : 73.0793 average correaltion : 72.6751
+max_correlation : 0.62557normalized correlation : 22.1803  offest : 1234773
+max_correlation : 0.660414normalized correlation : 23.3952  offest : 1253973
+Decode nsss - frame : 1  cell : 1 correaltion magnitude : 75.6928 average correaltion : 72.7724
+max_correlation : 0.646037normalized correlation : 22.867  offest : 1273173
+max_correlation : 0.657781normalized correlation : 23.2492  offest : 1292373
+Decode nsss
+0.115
+Warning: failed to XInitThreads()
+max_correlation : 0.00465766normalized correlation : 1.25778  offest : 1
+max_correlation : 0.632523normalized correlation : 21.4537  offest : 5978
+max_correlation : 0.638144normalized correlation : 21.2361  offest : 25178
+max_correlation : 0.649943normalized correlation : 21.5824  offest : 44377
+FFT: offset : 0 Size : 1 
+max_correlation : 0.639934normalized correlation : 21.5498  offest : 63578
+Decode nsss - frame : 2  cell : 1 correaltion magnitude : 72.2947 average correaltion : 72.2947
+max_correlation : 0.688523normalized correlation : 23.0341  offest : 82777
+max_correlation : 0.613268normalized correlation : 20.5536  offest : 101978
+Decode nsss - frame : 3  cell : 1 correaltion magnitude : 76.4762 average correaltion : 74.3855
+max_correlation : 0.644346normalized correlation : 21.5605  offest : 121177
+max_correlation : 0.629272normalized correlation : 20.8229  offest : 140377
+Decode nsss - frame : 0  cell : 1 correaltion magnitude : 68.5491 average correaltion : 72.44
+max_correlation : 0.681693normalized correlation : 22.5737  offest : 159577
+max_correlation : 0.621991normalized correlation : 20.4014  offest : 178777
+Decode nsss - frame : 1  cell : 1 correaltion magnitude : 72.3175 average correaltion : 72.4094
+max_correlation : 0.659975normalized correlation : 21.7415  offest : 197977
+max_correlation : 0.614332normalized correlation : 20.0634  offest : 217177
+Decode nsss - frame : 2  cell : 1 correaltion magnitude : 73.0652 average correaltion : 72.5405
+max_correlation : 0.619879normalized correlation : 20.289  offest : 236376
+max_correlation : 0.621717normalized correlation : 20.4364  offest : 255576
+Decode nsss - frame : 3  cell : 1 correaltion magnitude : 75.1027 average correaltion : 72.9676
+max_correlation : 0.667819normalized correlation : 21.9695  offest : 274776
+max_correlation : 0.654877normalized correlation : 21.7352  offest : 293976
+Decode nsss - frame : 0  cell : 1 correaltion magnitude : 68.5861 average correaltion : 72.3416
+max_correlation : 0.641243normalized correlation : 21.2934  offest : 313176
+max_correlation : 0.658314normalized correlation : 22.077  offest : 332376
+Decode nsss - frame : 1  cell : 1 correaltion magnitude : 77.1408 average correaltion : 72.9415
+max_correlation : 0.653284normalized correlation : 21.9351  offest : 351576
+max_correlation : 0.652564normalized correlation : 22.0403  offest : 370776
+Decode nsss - frame : 2  cell : 1 correaltion magnitude : 73.5043 average correaltion : 73.0041
+max_correlation : 0.630875normalized correlation : 21.2972  offest : 389976
+max_correlation : 0.624167normalized correlation : 21.1749  offest : 409176
+Decode nsss - frame : 3  cell : 1 correaltion magnitude : 76.1365 average correaltion : 73.3173
+max_correlation : 0.651307normalized correlation : 22.1088  offest : 428375
+max_correlation : 0.697673normalized correlation : 23.7583  offest : 447575
+Decode nsss - frame : 0  cell : 1 correaltion magnitude : 65.9304 average correaltion : 72.6458
+max_correlation : 0.637431normalized correlation : 21.6819  offest : 466775
+max_correlation : 0.653976normalized correlation : 22.3513  offest : 485975
+Decode nsss - frame : 1  cell : 1 correaltion magnitude : 75.9023 average correaltion : 72.9171
+max_correlation : 0.614331normalized correlation : 20.9674  offest : 505175
+max_correlation : 0.643698normalized correlation : 22.1123  offest : 524375
+Decode nsss - frame : 2  cell : 1 correaltion magnitude : 69.6951 average correaltion : 72.6693
+max_correlation : 0.674233normalized correlation : 23.1123  offest : 543575
+max_correlation : 0.671567normalized correlation : 23.068  offest : 562775
+Decode nsss - frame : 3  cell : 1 correaltion magnitude : 76.3163 average correaltion : 72.9298
+max_correlation : 0.651255normalized correlation : 22.3597  offest : 581975
+max_correlation : 0.666293normalized correlation : 22.9429  offest : 601175
+Decode nsss - frame : 0  cell : 1 correaltion magnitude : 65.1844 average correaltion : 72.4134
+max_correlation : 0.615959normalized correlation : 21.1812  offest : 620375
+max_correlation : 0.652662normalized correlation : 22.5251  offest : 639575
+Decode nsss - frame : 1  cell : 1 correaltion magnitude : 73.5704 average correaltion : 72.4857
+max_correlation : 0.65739normalized correlation : 22.6663  offest : 658775
+max_correlation : 0.657552normalized correlation : 22.7218  offest : 677975
+Decode nsss - frame : 2  cell : 1 correaltion magnitude : 71.398 average correaltion : 72.4217
+max_correlation : 0.641254normalized correlation : 22.1444  offest : 697175
+max_correlation : 0.64627normalized correlation : 22.3627  offest : 716375
+Decode nsss - frame : 3  cell : 1 correaltion magnitude : 76.218 average correaltion : 72.6327
+max_correlation : 0.653929normalized correlation : 22.5995  offest : 735575
+max_correlation : 0.633134normalized correlation : 21.9318  offest : 754775
+Decode nsss - frame : 0  cell : 1 correaltion magnitude : 71.2049 average correaltion : 72.5575
+max_correlation : 0.650365normalized correlation : 22.539  offest : 773975
+max_correlation : 0.635918normalized correlation : 22.0966  offest : 793175
+Decode nsss - frame : 1  cell : 1 correaltion magnitude : 67.2403 average correaltion : 72.2916
+max_correlation : 0.631279normalized correlation : 21.9358  offest : 812375
+max_correlation : 0.676958normalized correlation : 23.567  offest : 831574
+Decode nsss - frame : 2  cell : 1 correaltion magnitude : 72.1691 average correaltion : 72.2858
+max_correlation : 0.62717normalized correlation : 21.8114  offest : 850774
+max_correlation : 0.682827normalized correlation : 23.7824  offest : 869974
+Decode nsss - frame : 3  cell : 1 correaltion magnitude : 72.365 average correaltion : 72.2894
+max_correlation : 0.622703normalized correlation : 21.6791  offest : 889174
+max_correlation : 0.673648normalized correlation : 23.4631  offest : 908375
+Decode nsss - frame : 0  cell : 1 correaltion magnitude : 69.2098 average correaltion : 72.1555
+max_correlation : 0.643285normalized correlation : 22.4086  offest : 927575
+max_correlation : 0.617942normalized correlation : 21.5449  offest : 946774
+Decode nsss - frame : 1  cell : 1 correaltion magnitude : 69.9155 average correaltion : 72.0622
+max_correlation : 0.661001normalized correlation : 23.0063  offest : 965974
+max_correlation : 0.624386normalized correlation : 21.7773  offest : 985174
+Decode nsss - frame : 2  cell : 1 correaltion magnitude : 73.0766 average correaltion : 72.1028
+max_correlation : 0.651735normalized correlation : 22.7269  offest : 1004374
+max_correlation : 0.627423normalized correlation : 21.9251  offest : 1023574
+Decode nsss - frame : 3  cell : 1 correaltion magnitude : 73.0414 average correaltion : 72.1389
+max_correlation : 0.623977normalized correlation : 21.8012  offest : 1042774
+max_correlation : 0.623661normalized correlation : 21.8239  offest : 1061974
+Decode nsss - frame : 0  cell : 1 correaltion magnitude : 72.1009 average correaltion : 72.1375
+max_correlation : 0.651357normalized correlation : 22.7847  offest : 1081173
+max_correlation : 0.659793normalized correlation : 23.1131  offest : 1100374
+Decode nsss - frame : 1  cell : 1 correaltion magnitude : 73.967 average correaltion : 72.2028
+max_correlation : 0.668405normalized correlation : 23.3905  offest : 1119573
+max_correlation : 0.669965normalized correlation : 23.4885  offest : 1138774
+Decode nsss - frame : 2  cell : 1 correaltion magnitude : 71.7019 average correaltion : 72.1855
+max_correlation : 0.653876normalized correlation : 22.905  offest : 1157974
+max_correlation : 0.675288normalized correlation : 23.6794  offest : 1177173
+Decode nsss - frame : 3  cell : 1 correaltion magnitude : 72.4259 average correaltion : 72.1935
+max_correlation : 0.622857normalized correlation : 21.8292  offest : 1196374
+max_correlation : 0.634281normalized correlation : 22.1884  offest : 1215574
+Decode nsss - frame : 0  cell : 1 correaltion magnitude : 68.6584 average correaltion : 72.0795
+max_correlation : 0.660108normalized correlation : 23.0794  offest : 1234773
+max_correlation : 0.645067normalized correlation : 22.5375  offest : 1253974
+Decode nsss - frame : 1  cell : 1 correaltion magnitude : 71.8324 average correaltion : 72.0718
+max_correlation : 0.649439normalized correlation : 22.6841  offest : 1273174
+max_correlation : 0.671914normalized correlation : 23.4466  offest : 1292374
+Decode nsss - frame : 2  cell : 1 correaltion magnitude : 68.9972 average correaltion : 71.9786
+max_correlation : 0.64539normalized correlation : 22.5156  offest : 1311573
+max_correlation : 0.634773normalized correlation : 22.1159  offest : 1330773
+Decode nsss - frame : 3  cell : 1 correaltion magnitude : 71.959 average correaltion : 71.978
+max_correlation : 0.648456normalized correlation : 22.5872  offest : 1349973
+max_correlation : 0.639389normalized correlation : 22.2458  offest : 1369173
+Decode nsss - frame : 0  cell : 1 correaltion magnitude : 68.574 average correaltion : 71.8808
+max_correlation : 0.655488normalized correlation : 22.789  offest : 1388374
+max_correlation : 0.624567normalized correlation : 21.7001  offest : 1407573
+Decode nsss - frame : 1  cell : 1 correaltion magnitude : 73.4232 average correaltion : 71.9236
+max_correlation : 0.624966normalized correlation : 21.701  offest : 1426773
+max_correlation : 0.633682normalized correlation : 22.0081  offest : 1445973
+Decode nsss - frame : 2  cell : 1 correaltion magnitude : 68.8663 average correaltion : 71.841
+max_correlation : 0.680825normalized correlation : 23.6343  offest : 1465174
+max_correlation : 0.627556normalized correlation : 21.7901  offest : 1484372
+Decode nsss - frame : 3  cell : 1 correaltion magnitude : 68.9653 average correaltion : 71.7653
+max_correlation : 0.650776normalized correlation : 22.5865  offest : 1503573
+max_correlation : 0.682525normalized correlation : 23.7143  offest : 1522773
+Decode nsss - frame : 0  cell : 1 correaltion magnitude : 68.6559 average correaltion : 71.6856
+max_correlation : 0.682732normalized correlation : 23.7099  offest : 1541972
+max_correlation : 0.657469normalized correlation : 22.8653  offest : 1561172
+Decode nsss - frame : 1  cell : 1 correaltion magnitude : 72.6523 average correaltion : 71.7097
+max_correlation : 0.613634normalized correlation : 21.3331  offest : 1580373
+max_correlation : 0.65245normalized correlation : 22.7146  offest : 1599572
+Decode nsss - frame : 2  cell : 1 correaltion magnitude : 70.4267 average correaltion : 71.6785
+max_correlation : 0.666951normalized correlation : 23.1934  offest : 1618773
+max_correlation : 0.661508normalized correlation : 23.0165  offest : 1637972
+Decode nsss - frame : 3  cell : 1 correaltion magnitude : 78.523 average correaltion : 71.8414
+max_correlation : 0.667011normalized correlation : 23.2022  offest : 1657172
+max_correlation : 0.657735normalized correlation : 22.8903  offest : 1676372
+Decode nsss - frame : 0  cell : 1 correaltion magnitude : 73.9005 average correaltion : 71.8893
+max_correlation : 0.653277normalized correlation : 22.7423  offest : 1695572
+max_correlation : 0.640871normalized correlation : 22.3263  offest : 1714772
+Decode nsss - frame : 1  cell : 1 correaltion magnitude : 75.5406 average correaltion : 71.9723
+max_correlation : 0.645292normalized correlation : 22.4795  offest : 1733972
+max_correlation : 0.68382normalized correlation : 23.8493  offest : 1753171
+Decode nsss - frame : 2  cell : 1 correaltion magnitude : 68.4609 average correaltion : 71.8943
+max_correlation : 0.640315normalized correlation : 22.3173  offest : 1772370
+max_correlation : 0.646989normalized correlation : 22.5633  offest : 1791571
+Decode nsss - frame : 3  cell : 1 correaltion magnitude : 76.2299 average correaltion : 71.9885
+max_correlation : 0.664809normalized correlation : 23.1676  offest : 1810770
+max_correlation : 0.620337normalized correlation : 21.641  offest : 1829970
+Decode nsss - frame : 0  cell : 1 correaltion magnitude : 69.7073 average correaltion : 71.94
+max_correlation : 0.65933normalized correlation : 22.9963  offest : 1849170
+max_correlation : 0.640285normalized correlation : 22.3435  offest : 1868370
+Decode nsss - frame : 1  cell : 1 correaltion magnitude : 73.9457 average correaltion : 71.9818
+max_correlation : 0.636804normalized correlation : 22.2116  offest : 1887570
+max_correla
+0.12
+Warning: failed to XInitThreads()
+max_correlation : 0.0691698normalized correlation : 19.4413  offest : 1032694192
+max_correlation : 0.689245normalized correlation : 21.9805  offest : 5977
+max_correlation : 0.642642normalized correlation : 20.4803  offest : 25177
+max_correlation : 0.643012normalized correlation : 20.8594  offest : 44377
+FFT: offset : 0 Size : 1 
+max_correlation : 0.649324normalized correlation : 21.4353  offest : 63577
+Decode nsss - frame : 2  cell : 1 correaltion magnitude : 72.7136 average correaltion : 72.7136
+max_correlation : 0.60624normalized correlation : 20.1114  offest : 101978
+Decode nsss - frame : 3  cell : 1 correaltion magnitude : 74.3329 average correaltion : 73.5233
+max_correlation : 0.660294normalized correlation : 21.717  offest : 121177
+max_correlation : 0.642903normalized correlation : 20.7607  offest : 140377
+Decode nsss - frame : 0  cell : 1 correaltion magnitude : 69.4052 average correaltion : 72.1506
+max_correlation : 0.660102normalized correlation : 21.3491  offest : 159577
+max_correlation : 0.658813normalized correlation : 21.3286  offest : 178778
+Decode nsss - frame : 1  cell : 1 correaltion magnitude : 72.9389 average correaltion : 72.3477
+max_correlation : 0.634574normalized correlation : 20.5562  offest : 197977
+max_correlation : 0.641525normalized correlation : 20.8097  offest : 236376
+******* MESSAGE DEBUG PRINT ********
+38400
+************************************
+max_correlation : 0.650079normalized correlation : 21.1781  offest : 255576
+Decode nsss - frame : 3  cell : 1 correaltion magnitude : 71.0936 average correaltion : 72.0968
+max_correlation : 0.627077normalized correlation : 20.4309  offest : 274776
+max_correlation : 0.649777normalized correlation : 21.3564  offest : 293976
+Decode nsss - frame : 0  cell : 1 correaltion magnitude : 67.6589 average correaltion : 71.3572
+max_correlation : 0.658471normalized correlation : 21.7189  offest : 313176
+max_correlation : 0.634761normalized correlation : 21.0662  offest : 332376
+Decode nsss - frame : 1  cell : 1 correaltion magnitude : 75.655 average correaltion : 71.9712
+max_correlation : 0.650609normalized correlation : 21.6184  offest : 351576
+max_correlation : 0.621651normalized correlation : 20.7996  offest : 370776
+Decode nsss - frame : 2  cell : 1 correaltion magnitude : 68.0434 average correaltion : 71.4802
+max_correlation : 0.631007normalized correlation : 21.17  offest : 389976
+max_correlation : 0.65124normalized correlation : 21.9298  offest : 409176
+Decode nsss - frame : 3  cell : 1 correaltion magnitude : 74.3551 average correaltion : 71.7996
+max_correlation : 0.666316normalized correlation : 22.4249  offest : 428375
+max_correlation : 0.680347normalized correlation : 22.943  offest : 447575
+Decode nsss - frame : 0  cell : 1 correaltion magnitude : 70.8831 average correaltion : 71.708
+max_correlation : 0.669668normalized correlation : 22.5305  offest : 466775
+max_correlation : 0.604508normalized correlation : 20.4464  offest : 485975
+Decode nsss - frame : 1  cell : 1 correaltion magnitude : 73.7717 average correaltion : 71.8956
+max_correlation : 0.656399normalized correlation : 22.1973  offest : 505175
+max_correlation : 0.632145normalized correlation : 21.4806  offest : 524375
+Decode nsss - frame : 2  cell : 1 correaltion magnitude : 72.4764 average correaltion : 71.944
+max_correlation : 0.624531normalized correlation : 21.2164  offest : 543575
+max_correlation : 0.64176normalized correlation : 21.8633  offest : 562775
+Decode nsss - frame : 3  cell : 1 correaltion magnitude : 73.62 average correaltion : 72.0729
+max_correlation : 0.629013normalized correlation : 21.3883  offest : 581975
+max_correlation : 0.608076normalized correlation : 20.7366  offest : 601175
+Decode nsss - frame : 0  cell : 1 correaltion magnitude : 71.5467 average correaltion : 72.0353
+max_correlation : 0.657306normalized correlation : 22.3698  offest : 620375
+max_correlation : 0.656219normalized correlation : 22.3694  offest : 639575
+Decode nsss - frame : 1  cell : 1 correaltion magnitude : 75.2758 average correaltion : 72.2514
+max_correlation : 0.610329normalized correlation : 20.8107  offest : 658774
+max_correlation : 0.6718normalized correlation : 22.925  offest : 677974
+Decode nsss - frame : 2  cell : 1 correaltion magnitude : 71.7803 average correaltion : 72.2219
+max_correlation : 0.6495normalized correlation : 22.1384  offest : 697175
+max_correlation : 0.661081normalized correlation : 22.5702  offest : 716375
+Decode nsss - frame : 3  cell : 1 correaltion magnitude : 71.6187 average correaltion : 72.1864
+max_correlation : 0.644591normalized correlation : 21.9945  offest : 735575
+max_correlation : 0.590244normalized correlation : 20.1974  offest : 754775
+Decode nsss - frame : 0  cell : 1 correaltion magnitude : 71.5623 average correaltion : 72.1518
+max_correlation : 0.64881normalized correlation : 22.2103  offest : 773975
+max_correlation : 0.636304normalized correlation : 21.8341  offest : 793175
+Decode nsss - frame : 1  cell : 1 correaltion magnitude : 70.4614 average correaltion : 72.0628
+max_correlation : 0.659958normalized correlation : 22.6159  offest : 812375
+max_correlation : 0.648832normalized correlation : 22.2522  offest : 831575
+Decode nsss - frame : 2  cell : 1 correaltion magnitude : 72.433 average correaltion : 72.0813
+max_correlation : 0.650098normalized correlation : 22.2955  offest : 850774
+max_correlation : 0.658562normalized correlation : 22.6103  offest : 869974
+Decode nsss - frame : 3  cell : 1 correaltion magnitude : 68.8256 average correaltion : 71.9263
+max_correlation : 0.608079normalized correlation : 20.854  offest : 889175
+max_correlation : 0.655693normalized correlation : 22.5263  offest : 908374
+Decode nsss - frame : 0  cell : 1 correaltion magnitude : 69.1853 average correaltion : 71.8017
+max_correlation : 0.611029normalized correlation : 20.9784  offest : 927574
+max_correlation : 0.655255normalized correlation : 22.5302  offest : 946772
+Decode nsss - frame : 1  cell : 1 correaltion magnitude : 63.9498 average correaltion : 71.4603
+max_correlation : 0.619318normalized correlation : 21.2933  offest : 965975
+max_correlation : 0.650246normalized correlation : 22.3999  offest : 985174
+Decode nsss - frame : 2  cell : 1 correaltion magnitude : 70.7404 average correaltion : 71.4303
+max_correlation : 0.676883normalized correlation : 23.308  offest : 1004374
+max_correlation : 0.640967normalized correlation : 22.1027  offest : 1023574
+Decode nsss - frame : 3  cell : 1 correaltion magnitude : 76.4979 average correaltion : 71.633
+max_correlation : 0.627812normalized correlation : 21.6383  offest : 1042774
+max_correlation : 0.657067normalized correlation : 22.6773  offest : 1061974
+Decode nsss - frame : 0  cell : 1 correaltion magnitude : 72.6418 average correaltion : 71.6718
+max_correlation : 0.654783normalized correlation : 22.5729  offest : 1081174
+max_correlation : 0.647839normalized correlation : 22.3656  offest : 1100373
+Decode nsss - frame : 1  cell : 1 correaltion magnitude : 70.3341 average correaltion : 71.6223
+max_correlation : 0.651185normalized correlation : 22.4709  offest : 1119574
+max_correlation : 0.66725normalized correlation : 23.0793  offest : 1138774
+Decode nsss - frame : 2  cell : 1 correaltion magnitude : 72.7376 average correaltion : 71.6621
+max_correlation : 0.643549normalized correlation : 22.2451  offest : 1157973
+max_correlation : 0.635865normalized correlation : 22.008  offest : 1177174
+Decode nsss - frame : 3  cell : 1 correaltion magnitude : 74.4431 average correaltion : 71.758
+max_correlation : 0.624987normalized correlation : 21.6128  offest : 1196374
+max_correlation : 0.63466normalized correlation : 21.9066  offest : 1215573
+Decode nsss - frame : 0  cell : 1 correaltion magnitude : 66.7593 average correaltion : 71.5914
+max_correlation : 0.647921normalized correlation : 22.3432  offest : 1234772
+max_correlation : 0.653869normalized correlation : 22.543  offest : 1253975
+Decode nsss - frame : 1  cell : 1 correaltion magnitude : 70.8711 average correaltion : 71.5681
+max_correlation : 0.62359normalized correlation : 21.4685  offest : 1273174
+max_correlation : 0.659016normalized correlation : 22.6681  offest : 1292373
+Decode nsss - frame : 2  cell : 1 correaltion magnitude : 71.7311 average correaltion : 71.5732
+max_correlation : 0.631827normalized correlation : 21.7231  offest : 1311573
+max_correlation : 0.624971normalized correlation : 21.4787  offest : 1330772
+Decode nsss - frame : 3  cell : 1 correaltion magnitude : 69.959 average correaltion : 71.5243
+max_correlation : 0.630946normalized correlation : 21.6735  offest : 1349973
+max_correlation : 0.622368normalized correlation : 21.3682  offest : 1369173
+Decode nsss - frame : 0  cell : 1 correaltion magnitude : 69.5904 average correaltion : 71.4674
+max_correlation : 0.679893normalized correlation : 23.3271  offest : 1388372
+max_correlation : 0.600324normalized correlation : 20.5833  offest : 1407573
+Decode nsss - frame : 1  cell : 1 correaltion magnitude : 73.0584 average correaltion : 71.5129
+max_correlation : 0.648071normalized correlation : 22.2179  offest : 1426772
+max_correlation : 0.664005normalized correlation : 22.7635  offest : 1445972
+Decode nsss - frame : 2  cell : 1 correaltion magnitude : 71.5437 average correaltion : 71.5137
+max_correlation : 0.640653normalized correlation : 21.9728  offest : 1465172
+max_correlation : 0.63237normalized correlation : 21.682  offest : 1484372
+Decode nsss - frame : 3  cell : 1 correaltion magnitude : 69.7781 average correaltion : 71.4668
+max_correlation : 0.651498normalized correlation :
+0.125
+Warning: failed to XInitThreads()
+max_correlation : 0.0149502normalized correlation : 1.02236  offest : 1
+max_correlation : 0.611318normalized correlation : 22.7574  offest : 5978
+max_correlation : 0.62837normalized correlation : 21.0869  offest : 25177
+max_correlation : 0.68817normalized correlation : 23.021  offest : 44377
+FFT: offset : 0 Size : 1 
+max_correlation : 0.679585normalized correlation : 22.2882  offest : 63578
+Decode nsss - frame : 2  cell : 1 correaltion magnitude : 73.0712 average correaltion : 73.0712
+max_correlation : 0.651019normalized correlation : 21.3131  offest : 82777
+max_correlation : 0.612942normalized correlation : 20.2316  offest : 101978
+Decode nsss - frame : 3  cell : 1 correaltion magnitude : 73.3967 average correaltion : 73.2339
+max_correlation : 0.614121normalized correlation : 20.367  offest : 121178
+max_correlation : 0.66247normalized correlation : 21.6625  offest : 140378
+Decode nsss - frame : 0  cell : 1 correaltion magnitude : 71.398 average correaltion : 72.622
+max_correlation : 0.650308normalized correlation : 21.2392  offest : 159578
+max_correlation : 0.627345normalized correlation : 20.4107  offest : 178777
+Decode nsss - frame : 1  cell : 1 correaltion magnitude : 74.2864 average correaltion : 73.0381
+max_correlation : 0.649546normalized correlation : 21.1437  offest : 197978
+max_correlation : 0.63418normalized correlation : 20.6591  offest : 236376
+max_correlation : 0.668069normalized correlation : 21.7182  offest : 255577
+Decode nsss - frame : 3  cell : 1 correaltion magnitude : 74.4031 average correaltion : 73.3111
+max_correlation : 0.679045normalized correlation : 22.0792  offest : 274777
+max_correlation : 0.657664normalized correlation : 21.5432  offest : 293976
+Decode nsss - frame : 0  cell : 1 correaltion magnitude : 70.2606 average correaltion : 72.8026
+max_correlation : 0.673967normalized correlation : 22.1097  offest : 313175
+max_correlation : 0.666455normalized correlation : 22.0199  offest : 332376
+Decode nsss - frame : 1  cell : 1 correaltion magnitude : 71.6709 average correaltion : 72.641
+max_correlation : 0.648603normalized correlation : 21.4005  offest : 351576
+max_correlation : 0.632581normalized correlation : 21.0409  offest : 370775
+Decode nsss - frame : 2  cell : 1 correaltion magnitude : 72.2589 average correaltion : 72.5932
+max_correlation : 0.699434normalized correlation : 23.2835  offest : 389978
+max_correlation : 0.647199normalized correlation : 21.5789  offest : 409176
+Decode nsss - frame : 3  cell : 1 correaltion magnitude : 72.9419 average correaltion : 72.632
+max_correlation : 0.647907normalized correlation : 21.5971  offest : 428375
+max_correlation : 0.618301normalized correlation : 20.6256  offest : 447576
+Decode nsss - frame : 0  cell : 1 correaltion magnitude : 68.3231 average correaltion : 72.2011
+max_correlation : 0.672927normalized correlation : 22.4115  offest : 466775
+max_correlation : 0.672071normalized correlation : 22.4485  offest : 485976
+Decode nsss - frame : 1  cell : 1 correaltion magnitude : 69.89 average correaltion : 71.991
+max_correlation : 0.635414normalized correlation : 21.218  offest : 505176
+max_correlation : 0.66279normalized correlation : 22.2135  offest : 524376
+Decode nsss - frame : 2  cell : 1 correaltion magnitude : 73.0224 average correaltion : 72.0769
+max_correlation : 0.622028normalized correlation : 20.8286  offest : 543575
+max_correlation : 0.665637normalized correlation : 22.3706  offest : 562775
+Decode nsss - frame : 3  cell : 1 correaltion magnitude : 76.5249 average correaltion : 72.4191
+max_correlation : 0.657042normalized correlation : 22.0585  offest : 581975
+max_correlation : 0.60711normalized correlation : 20.4294  offest : 601175
+Decode nsss - frame : 0  cell : 1 correaltion magnitude : 67.0472 average correaltion : 72.0354
+max_correlation : 0.651912normalized correlation : 21.8903  offest : 620375
+max_correlation : 0.660536normalized correlation : 22.2584  offest : 639575
+Decode nsss - frame : 1  cell : 1 correaltion magnitude : 73.2577 average correaltion : 72.1169
+max_correlation : 0.688061normalized correlation : 23.1334  offest : 658775
+max_correlation : 0.64044normalized correlation : 21.5548  offest : 677975
+Decode nsss - frame : 2  cell : 1 correaltion magnitude : 70.6576 average correaltion : 72.0257
+max_correlation : 0.667794normalized correlation : 22.4567  offest : 697175
+max_correlation : 0.662659normalized correlation : 22.3171  offest : 716375
+Decode nsss - frame : 3  cell : 1 correaltion magnitude : 73.9487 average correaltion : 72.1388
+max_correlation : 0.653406normalized correlation : 21.9908  offest : 735574
+max_correlation : 0.643422normalized correlation : 21.6836  offest : 754775
+Decode nsss - frame : 0  cell : 1 correaltion magnitude : 66.4744 average correaltion : 71.8241
+max_correlation : 0.623202normalized correlation : 20.9973  offest : 773975
+max_correlation : 0.636123normalized correlation : 21.5004  offest : 793174
+Decode nsss - frame : 1  cell : 1 correaltion magnitude : 70.7061 average correaltion : 71.7653
+max_correlation : 0.704655normalized correlation : 23.7775  offest : 812375
+max_correlation : 0.608978normalized correlation : 20.5724  offest : 831574
+Decode nsss - frame : 2  cell : 1 correaltion magnitude : 71.1284 average correaltion : 71.7334
+max_correlation : 0.656122normalized correlation : 22.1675  offest : 850775
+max_correlation : 0.64111normalized correlation : 21.6869  offest : 869974
+Decode nsss - frame : 3  cell : 1 correaltion magnitude : 78.1177 average correaltion : 72.0374
+max_correlation : 0.624994normalized correlation : 21.1668  offest : 908375
+Decode nsss - frame : 0  cell : 1 correaltion magnitude : 70.386 average correaltion : 71.9624
+max_correlation : 0.663712normalized correlation : 22.454  offest : 927575
+max_correlation : 0.656normalized correlation : 22.2149  offest : 946774
+Decode nsss - frame : 1  cell : 1 correaltion magnitude : 73.269 average correaltion : 72.0192
+max_correlation : 0.632595normalized correlation : 21.4127  offest : 965973
+max_correlation : 0.668363normalized correlation : 22.6594  offest : 985174
+Decode nsss - frame : 2  cell : 1 correaltion magnitude : 67.5252 average correaltion : 71.8319
+max_correlation : 0.616185normalized correlation : 20.8733  offest : 1004374
+max_correlation : 0.661564normalized correlation : 22.4465  offest : 1023575
+Decode nsss - frame : 3  cell : 1 correaltion magnitude : 73.0572 average correaltion : 71.8809
+max_correlation : 0.629868normalized correlation : 21.3577  offest : 1042774
+max_correlation : 0.720099normalized correlation : 24.4436  offest : 1061974
+Decode nsss - frame : 0  cell : 1 correaltion magnitude : 68.0139 average correaltion : 71.7322
+max_correlation : 0.628213normalized correlation : 21.2955  offest : 1081174
+max_correlation : 0.663719normalized correlation : 22.5344  offest : 1100374
+Decode nsss - frame : 1  cell : 1 correaltion magnitude : 70.3266 average correaltion : 71.6801
+max_correlation : 0.642221normalized correlation : 21.791  offest : 1119574
+max_correlation : 0.66852normalized correlation : 22.7235  offest : 1138773
+Decode nsss - frame : 2  cell : 1 correaltion magnitude : 65.7883 average correaltion : 71.4697
+max_correlation : 0.685478normalized correlation : 23.3011  offest : 1157973
+max_correlation : 0.670866normalized correlation : 22.8258  offest : 1177174
+Decode nsss - frame : 3  cell : 1 correaltion magnitude : 73.0889 average correaltion : 71.5256
+max_correlation : 0.630215normalized correlation : 21.4462  offest : 1196373
+max_correlation : 0.629568normalized correlation : 21.397  offest : 1215573
+Decode nsss - frame : 0  cell : 1 correaltion magnitude : 66.2917 average correaltion : 71.3511
+max_correlation : 0.671916normalized correlation : 22.8163  offest : 1234773
+max_correlation : 0.634679normalized correlation : 21.5232  offest : 1253974
+Decode nsss - frame : 1  cell : 1 correaltion magnitude : 70.8798 average correaltion : 71.3359
+max_correlation : 0.656604normalized correlation : 22.2514  offest : 1273173
+max_correlation : 0.673956normalized correlation : 22.8197  offest : 1292373
+Decode nsss - frame : 2  cell : 1 correaltion magnitude : 67.8585 average correaltion
+0.13
+Warning: failed to XInitThreads()
+max_correlation : 0.00857684normalized correlation : 0.932383  offest : 1
+max_correlation : 0.622201normalized correlation : 20.3282  offest : 5978
+max_correlation : 0.646648normalized correlation : 20.0468  offest : 25177
+max_correlation : 0.634917normalized correlation : 20.0117  offest : 44377
+FFT: offset : 0 Size : 1 
+max_correlation : 0.649962normalized correlation : 20.4617  offest : 63578
+Decode nsss - frame : 2  cell : 1 correaltion magnitude : 73.3412 average correaltion : 73.3412
+max_correlation : 0.672235normalized correlation : 21.0551  offest : 101978
+******* MESSAGE DEBUG PRINT ********
+38400
+************************************
+Decode nsss - frame : 3  cell : 1 correaltion magnitude : 75.3362 average correaltion : 74.3387
+max_correlation : 0.66324normalized correlation : 20.6881  offest : 159578
+******* MESSAGE DEBUG PRINT ********
+57600
+************************************
+******* MESSAGE DEBUG PRINT ********
+76800
+************************************
+max_correlation : 0.674616normalized correlation : 21.2169  offest : 236376
+max_correlation : 0.638247normalized correlation : 20.1176  offest : 255577
+Decode nsss - frame : 3  cell : 1 correaltion magnitude : 70.9177 average correaltion : 73.1984
+max_correlation : 0.653955normalized correlation : 20.6142  offest : 274775
+max_correlation : 0.643031normalized correlation : 20.4867  offest : 293976
+Decode nsss - frame : 0  cell : 1 correaltion magnitude : 68.586 average correaltion : 72.0453
+max_correlation : 0.675905normalized correlation : 21.5917  offest : 313176
+max_correlation : 0.688475normalized correlation : 22.0823  offest : 332377
+Decode nsss - frame : 1  cell : 1 correaltion magnitude : 71.2206 average correaltion : 71.8804
+max_correlation : 0.659143normalized correlation : 21.1472  offest : 351575
+max_correlation : 0.639045normalized correlation : 20.6324  offest : 370776
+Decode nsss - frame : 2  cell : 1 correaltion magnitude : 68.5022 average correaltion : 71.3173
+max_correlation : 0.637675normalized correlation : 20.5968  offest : 389976
+max_correlation : 0.644794normalized correlation : 20.9483  offest : 428376
+******* MESSAGE DEBUG PRINT ********
+38400
+************************************
+max_correlation : 0.638027normalized correlation : 20.8335  offest : 447576
+Decode nsss - frame : 0  cell : 1 correaltion magnitude : 69.5607 average correaltion : 71.0664
+max_correlation : 0.699935normalized correlation : 22.7727  offest : 466775
+max_correlation : 0.664835normalized correlation : 21.7222  offest : 485976
+Decode nsss - frame : 1  cell : 1 correaltion magnitude : 75.2096 average correaltion : 71.5843
+max_correlation : 0.614307normalized correlation : 20.0592  offest : 505176
+max_correlation : 0.699943normalized correlation : 22.9841  offest : 524375
+Decode nsss - frame : 2  cell : 1 correaltion magnitude : 73.2249 average correaltion : 71.7666
+max_correlation : 0.617152normalized correlation : 20.3017  offest : 543575
+max_correlation : 0.640468normalized correlation : 21.1261  offest : 562775
+Decode nsss - frame : 3  cell : 1 correaltion magnitude : 69.3327 average correaltion : 71.5232
+max_correlation : 0.638047normalized correlation : 21.004  offest : 581974
+max_correlation : 0.659184normalized correlation : 21.7418  offest : 601175
+Decode nsss - frame : 0  cell : 1 correaltion magnitude : 69.464 average correaltion : 71.336
+max_correlation : 0.641812normalized correlation : 21.1435  offest : 620376
+max_correlation : 0.637249normalized correlation : 21.0444  offest : 639575
+Decode nsss - frame : 1  cell : 1 correaltion magnitude : 70.2983 average correaltion : 71.2495
+max_correlation : 0.621569normalized correlation : 20.5031  offest : 658775
+max_correlation : 0.656107normalized correlation : 21.6475  offest : 677976
+Decode nsss - frame : 2  cell : 1 correaltion magnitude : 68.9637 average correaltion : 71.0737
+max_correlation : 0.642365normalized correlation : 21.1813  offest : 697175
+max_correlation : 0.631817normalized correlation : 20.8906  offest : 716375
+Decode nsss - frame : 3  cell : 1 correaltion magnitude : 73.2365 average correaltion : 71.2282
+max_correlation : 0.670869normalized correlation : 22.1665  offest : 735575
+max_correlation : 0.621718normalized correlation : 20.5783  offest : 754774
+Decode nsss - frame : 0  cell : 1 correaltion magnitude : 68.518 average correaltion : 71.0475
+max_correlation : 0.646644normalized correlation : 21.3824  offest : 773975
+max_correlation : 0.68283normalized correlation : 22.6082  offest : 793174
+Decode nsss - frame : 1  cell : 1 correaltion magnitude : 68.5503 average correaltion : 70.8914
+max_correlation : 0.659942normalized correlation : 21.8117  offest : 812374
+max_correlation : 0.672785normalized correlation : 22.2709  offest : 831575
+Decode nsss - frame : 2  cell : 1 correaltion magnitude : 73.6299 average correaltion : 71.0525
+max_correlation : 0.632091normalized correlation : 20.9205  offest : 850774
+max_correlation : 0.684395normalized correlation : 22.6804  offest : 869974
+Decode nsss - frame : 3  cell : 1 correaltion magnitude : 74.9364 average correaltion : 71.2683
+max_correlation : 0.619985normalized correlation : 20.5528  offest : 889175
+max_correlation : 0.64536normalized correlation : 21.4188  offest : 908374
+Decode nsss - frame : 0  cell : 1 correaltion magnitude : 65.8619 average correaltion : 70.9837
+max_correlation : 0.697102normalized correlation : 23.1063  offest : 927574
+max_correlation : 0.642334normalized correlation : 21.3201  offest : 946774
+Decode nsss - frame : 1  cell : 1 correaltion magnitude : 74.1529 average correaltion : 71.1422
+max_correlation : 0.622525normalized correlation : 20.6642  offest : 965973
+max_correlation : 0.609064normalized correlation : 20.2449  offest : 985174
+Decode nsss - frame : 2  cell : 1 correaltion magnitude : 69.7919 average correaltion : 71.0779
+max_correlation : 0.681468normalized correlation : 22.6424  offest : 1004374
+max_correlation : 0.621886normalized correlation : 20.7104  offest : 1023574
+Decode nsss - frame : 3  cell : 1 correaltion magnitude : 72.3769 average correaltion : 71.1369
+max_correlation : 0.630559normalized correlation : 21.0134  offest : 1042773
+max_correlation : 0.660315normalized correlation : 22.02  offest : 1061973
+Decode nsss - frame : 0  cell : 1 correaltion magnitude : 65.5595 average correaltion : 70.8945
+max_correlation : 0.665626normalized correlation : 22.1868  offest : 1081173
+max_correlation : 0.640286normalized correlation : 21.3839  offest : 1100374
+Decode nsss - frame : 1  cell : 1 correaltion magnitude : 70.5738 average correaltion : 70.8811
+max_correlation : 0.637702normalized correlation : 21.2903  offest : 1119574
+max_correlation : 0.64718normalized correlation : 21.6358  offest : 1138774
+Decode nsss - frame : 2  cell : 1 correaltion magnitude : 63.3325 average correaltion : 70.5791
+max_correlation : 0.624825normalized correlation : 20.882  offest : 1157973
+max_correlation : 0.638355normalized correlation : 21.3596  offest : 1177174
+Decode nsss - frame : 3  cell : 1 correaltion magnitude : 68.9166 average correaltion : 70.5152
+max_correlation : 0.652757normalized correlation : 21.8324  offest : 1196374
+max_correlation : 0.659542normalized correlation : 22.0192  offest : 1215574
+Decode nsss - frame : 0  cell : 1 correaltion magnitude : 68.5127 average correaltion : 70.441
+max_correlation : 0.629619normalized correlation : 21.0051  offest : 1234774
+max_correlation : 0.679829normalized correlation : 22.6551  offest : 1253974
+Decode nsss - frame : 1  cell : 1 correaltion magnitude : 70.0341 average correaltion : 70.4265
+max_correlation : 0.645202normalized correlation : 21.4962  offest : 1273173
+max_correlation : 0.685186normalized correlation : 22.8201  offest : 1292374
+Decode nsss - frame : 2  cell : 1 correaltion magnitude : 70.8163 average correaltion : 70.4399
+max_correlation : 0.62692normalized correlation : 20.8709  offest : 1311573
+max_correlation : 0.633345normalized correlation : 21.0578  offest : 1330773
+Decode nsss - frame : 3  cell : 1 correaltion magnitude : 71.2284 average correaltion : 70.4662
+max_correlation : 0.632417normalized correlation : 21.0076  offest : 1349974
+max_correlation : 0.643528normalized correlation : 21.364  offest : 1369173
+Decode nsss - frame : 0  cell : 1 correaltion magnitude : 65.5178 average correaltion : 70.3066
+max_correlation : 0.642641normalized correlation : 21.3218  offest : 1388373
+max_correlation : 0.674713normalized correlation : 22.3692  offest : 1407572
+Decode nsss - frame : 1  cell : 1 correaltion magnitude : 68.2648 average correaltion : 70.2428
+max_correlation : 0.659686normalized correlation : 21.8674  offest : 1426773
+max_correlation : 0.634225normalized correlation : 21.0292  offest : 1445972
+Decode nsss - frame : 2  cell : 1 correaltion magnitude : 68.7935 average correaltion : 70.1989
+max_correlation : 0.651856normalized correlation : 21.6234  offest : 1465172
+max_correlation : 0.664448normalized correlation : 22.027  offest : 1484373
+Decode nsss - frame : 3  cell : 1 correaltion magnitude : 71.9116 average correaltion : 70.2493
+max_correlation : 0.688509normalized correlation : 22.8218  offest : 1503573
+max_correlation : 0.667152normalized correlation : 22.1373  offest : 1522773
+Decode nsss - frame : 0  cell : 1 correaltion magnitude : 68.7869 average correaltion : 70.2075
+max_correlation : 0.650057normalized correlation : 21.5629  offest : 1541973
+max_correlation : 0.621092normalized correlation : 20.6327  offest : 1561172
+Decode nsss - frame : 1  cell : 1 correaltion magnitude : 69.9915 average correaltion : 70.2015
+max_correlation : 0.657268normalized correlation : 21.8296  offest : 1580373
+max_correlation : 0.621599normalized correlation : 20.673  offest : 1599572
+Decode nsss - frame : 2  cell : 1 correaltion magnitude : 71.56 average correaltion : 70.2382
+max_correlation : 0.64408normalized correlation : 21.4203  offest : 1618773
+max_correlation : 0.653358normalized correlation : 21.7249  offest : 1637972
+Decode nsss - frame : 3  cell : 1 correaltion magnitude : 74.8963 average correaltion : 70.3608
+max_correlation : 0.661031normalized correlation : 21.9694  offest : 1657172
+max_correlation : 0.62922normalized correlation : 20.9305  offest : 1676372
+Decode nsss - frame : 0  cell : 1 correaltion magnitude : 70.0893 average correaltion : 70.3538
+max_correlation : 0.647594norm
+0.135
+Warning: failed to XInitThreads()
+max_correlation : 0.0046785normalized correlation : 0.854608  offest : 1
+max_correlation : 0.6502normalized correlation : 21.6945  offest : 5978
+max_correlation : 0.671871normalized correlation : 20.5329  offest : 25177
+max_correlation : 0.65446normalized correlation : 20.4062  offest : 44377
+FFT: offset : 0 Size : 2 
+max_correlation : 0.637407normalized correlation : 20.1195  offest : 63578
+Decode nsss - frame : 2  cell : 1 correaltion magnitude : 67.7125 average correaltion : 67.7125
+max_correlation : 0.638504normalized correlation : 20.1672  offest : 82777
+max_correlation : 0.665689normalized correlation : 21.2283  offest : 101978
+Decode nsss - frame : 3  cell : 1 correaltion magnitude : 76.8463 average correaltion : 72.2794
+******* MESSAGE DEBUG PRINT ********
+38400
+************************************
+******* MESSAGE DEBUG PRINT ********
+57600
+************************************
+******* MESSAGE DEBUG PRINT ********
+76800
+************************************
+******* MESSAGE DEBUG PRINT ********
+96000
+************************************
+******* MESSAGE DEBUG PRINT ********
+115200
+************************************
+******* MESSAGE DEBUG PRINT ********
+134400
+************************************
+******* MESSAGE DEBUG PRINT ********
+153600
+************************************
+******* MESSAGE DEBUG PRINT ********
+172800
+************************************
+max_correlation : 0.664469normalized correlation : 21.0776  offest : 293976
+Decode nsss - frame : 0  cell : 1 correaltion magnitude : 71.1749 average correaltion : 71.9112
+max_correlation : 0.638918normalized correlation : 20.2419  offest : 313176
+max_correlation : 0.640903normalized correlation : 20.4102  offest : 332376
+Decode nsss - frame : 1  cell : 1 correaltion magnitude : 68.1422 average correaltion : 70.969
+******* MESSAGE DEBUG PRINT ********
+38400
+************************************
+******* MESSAGE DEBUG PRINT ********
+57600
+************************************
+******* MESSAGE DEBUG PRINT ********
+76800
+************************************
+******* MESSAGE DEBUG PRINT ********
+96000
+************************************
+max_correlation : 0.669763normalized correlation : 21.6348  offest : 428376
+max_correlation : 0.652235normalized correlation : 21.1193  offest : 447575
+Decode nsss - frame : 0  cell : 1 correaltion magnitude : 61.5731 average correaltion : 69.0898
+max_correlation : 0.672324normalized correlation : 21.7712  offest : 466775
+max_correlation : 0.648646normalized correlation : 21.1  offest : 485975
+Decode nsss - frame : 1  cell : 1 correaltion magnitude : 67.6761 average correaltion : 68.8542
+max_correlation : 0.656264normalized correlation : 21.3187  offest : 505176
+max_correlation : 0.650297normalized correlation : 21.2317  offest : 524375
+Decode nsss - frame : 2  cell : 1 correaltion magnitude : 70.9893 average correaltion : 69.1592
+max_correlation : 0.651454normalized correlation : 21.2714  offest : 543575
+max_correlation : 0.636583normalized correlation : 20.8654  offest : 562776
+Decode nsss - frame : 3  cell : 1 correaltion magnitude : 71.2474 average correaltion : 69.4202
+max_correlation : 0.672142normalized correlation : 22.0429  offest : 581974
+max_correlation : 0.646451normalized correlation : 21.2542  offest : 601175
+Decode nsss - frame : 0  cell : 1 correaltion magnitude : 66.5747 average correaltion : 69.104
+max_correlation : 0.652202normalized correlation : 21.3957  offest : 620375
+max_correlation : 0.672767normalized correlation : 22.0996  offest : 639575
+Decode nsss - frame : 1  cell : 1 correaltion magnitude : 67.6961 average correaltion : 68.9633
+max_correlation : 0.646206normalized correlation : 21.1982  offest : 658774
+max_correlation : 0.631868normalized correlation : 20.7635  offest : 677974
+Decode nsss - frame : 2  cell : 1 correaltion magnitude : 68.6749 average correaltion : 68.937
+max_correlation : 0.659033normalized correlation : 21.6253  offest : 697175
+max_correlation : 0.650676normalized correlation : 21.388  offest : 716375
+Decode nsss - frame : 3  cell : 1 correaltion magnitude : 75.9903 average correaltion : 69.5248
+max_correlation : 0.667149normalized correlation : 21.9214  offest : 735574
+max_correlation : 0.635832normalized correlation : 20.9066  offest : 754775
+Decode nsss - frame : 0  cell : 1 correaltion magnitude : 71.7776 average correaltion : 69.6981
+max_correlation : 0.631807normalized correlation : 20.7743  offest : 773974
+max_correlation : 0.648106normalized correlation : 21.3627  offest : 793175
+Decode nsss - frame : 1  cell : 1 correaltion magnitude : 68.0654 average correaltion : 69.5815
+max_correlation : 0.659598normalized correlation : 21.7162  offest : 812375
+max_correlation : 0.671529normalized correlation : 22.1236  offest : 831574
+Decode nsss - frame : 2  cell : 1 correaltion magnitude : 65.4383 average correaltion : 69.3053
+max_correlation : 0.640201normalized correlation : 21.0877  offest : 850775
+max_correlation : 0.640734normalized correlation : 21.1382  offest : 869974
+Decode nsss - frame : 3  cell : 1 correaltion magnitude : 70.2447 average correaltion : 69.364
+max_correlation : 0.640902normalized correlation : 21.1163  offest : 889175
+max_correlation : 0.666469normalized correlation : 21.9704  offest : 908375
+Decode nsss - frame : 0  cell : 1 correaltion magnitude : 63.8387 average correaltion : 69.039
+max_correlation : 0.688393normalized correlation : 22.6259  offest : 927575
+max_correlation : 0.689465normalized correlation : 22.6741  offest : 946774
+Decode nsss - frame : 1  cell : 1 correaltion magnitude : 69.6007 average correaltion : 69.0702
+max_correlation : 0.632351normalized correlation : 20.7983  offest : 965974
+max_correlation : 0.654505normalized correlation : 21.5617  offest : 985174
+Decode nsss - frame : 2  cell : 1 correaltion magnitude : 68.3915 average correaltion : 69.0345
+max_correlation : 0.665138normalized correlation : 21.8937  offest : 1004374
+max_correlation : 0.640033normalized correlation : 21.1144  offest : 1023574
+Decode nsss - frame : 3  cell : 1 correaltion magnitude : 66.9961 average correaltion : 68.9325
+max_correlation : 0.635639normalized correlation : 20.9482  offest : 1042773
+max_correlation : 0.659461normalized correlation : 21.7548  offest : 1061974
+Decode nsss - frame : 0  cell : 1 correaltion magnitude : 66.6668 average correaltion : 68.8246
+max_correlation : 0.669602normalized correlation : 22.0718  offest : 1081173
+max_correlation : 0.661362normalized correlation : 21.8453  offest : 1100374
+Decode nsss - frame : 1  cell : 1 correaltion magnitude : 66.6911 average correaltion : 68.7277
+max_correlation : 0.62395normalized correlation : 20.6098  offest : 1119574
+max_correlation : 0.654179normalized correlation : 21.6462  offest : 1138774
+Decode nsss - frame : 2  cell : 1 correaltion magnitude : 67.7976 average correaltion : 68.6872
+max_correlation : 0.613395normalized correlation : 20.2922  offest : 1157974
+max_correlation : 0.639749normalized correlation : 21.183  offest : 1177174
+Decode nsss - frame : 3  cell : 1 correaltion magnitude : 70.9328 average correaltion : 68.7808
+max_correlation : 0.656962normalized correlation : 21.7455  offest : 1196375
+max_correlation : 0.6213normalized correlation : 20.5327  offest : 1215574
+Decode nsss - frame : 0  cell : 1 correaltion magnitude : 70.1629 average correaltion : 68.8361
+max_correlation : 0.637802normalized correlation : 21.063  offest : 1234773
+max_correlation : 0.61431normalized correlation : 20.2751  offest : 1253973
+Decode nsss - frame : 1  cell : 1 correaltion magnitude : 72.8411 average correaltion : 68.9901
+max_correlation : 0.60695normalized correlation : 20.0296  offest : 1273173
+max_correlation : 0.692416normalized correlation : 22.8317  offest : 1292374
+Decode nsss - frame : 2  cell : 1 correaltion magnitude : 67.0398 average correaltion : 68.9179
+max_correlation : 0.659012normalized correlation : 21.7148  offest : 1311574
+max_correlation : 0.617788normalized correlation : 20.3275  offest : 1330773
+Decode nsss - frame : 3  cell : 1 correaltion magnitude : 71.1583 average correaltion : 68.9979
+max_correlation : 0.664377normalized correlation : 21.8449  offest : 1349973
+max_correlation : 0.679438normalized correlation : 22.3109  offest : 1369173
+Decode nsss - frame : 0  cell : 1 correaltion magnitude : 68.4695 average correaltion : 68.9797
+max_correlation : 0.641505normalized correlation : 21.052  offest : 1388372
+max_correlation : 0.610649normalized correlation : 20.0236  offest : 1407574
+Decode nsss - frame : 1  cell : 1 correaltion magnitude : 70.8875 average correaltion : 69.0433
+max_correlation : 0.639375normalized correlation : 20.934  offest : 1426773
+max_correlation : 0.613743normalized correlation : 20.1055  offest : 1445973
+Decode nsss - frame : 2  cell : 1 correaltion magnitude : 67.9531 average correaltion : 69.0081
+max_correlation : 0.619647normalized correlation : 20.3057  offest : 1465173
+max_correlation : 0.684779normalized correlation : 22.4226  offest : 1484373
+Decode nsss - frame : 3  cell : 1 correaltion magnitude : 68.1388 average correaltion : 68.9809
+max_correlation : 0.665957normalized correlation : 21.8001  offest : 1503574
+max_correlation : 0.655717normalized correlation : 21.483  offest : 1522772
+Decode nsss - frame : 0  cell : 1 correaltion magnitude : 67.0292 average correaltion : 68.9218
+max_correlation : 0.628205normalized correlation : 20.5852  offest : 1541973
+max_correlation : 0.664825normalized correlation : 21.8013  offest : 1561172
+Decode nsss - frame : 1  cell : 1 correaltion magnitude : 69.0867 average correaltion : 68.9266
+max_correlation : 0.657414normalized correlation : 21.5891  offest : 1599573
+******* MESSAGE DEBUG PRINT ********
+38400
+
+0.14
+Warning: failed to XInitThreads()
+max_correlation : 0.0102002normalized correlation : 1.0269  offest : 1
+max_correlation : 0.665135normalized correlation : 19.9367  offest : 5978
+max_correlation : 0.68352normalized correlation : 20.3007  offest : 25178
+max_correlation : 0.675958normalized correlation : 20.4655  offest : 44377
+FFT: offset : 0 Size : 1 
+******* MESSAGE DEBUG PRINT ********
+38400
+************************************
+max_correlation : 0.679389normalized correlation : 21.0734  offest : 101977
+******* MESSAGE DEBUG PRINT ********
+57600
+************************************
+Decode nsss - frame : 3  cell : 1 correaltion magnitude : 71.6887 average correaltion : 71.6887
+******* MESSAGE DEBUG PRINT ********
+38400
+************************************
+max_correlation : 0.646589normalized correlation : 20.0099  offest : 159578
+max_correlation : 0.662037normalized correlation : 20.2767  offest : 178777
+Decode nsss - frame : 1  cell : 1 correaltion magnitude : 70.5805 average correaltion : 71.1346
+max_correlation : 0.65522normalized correlation : 20.0461  offest : 197978
+max_correlation : 0.661028normalized correlation : 20.1655  offest : 236376
+max_correlation : 0.653532normalized correlation : 19.9803  offest : 255577
+Decode nsss - frame : 3  cell : 1 correaltion magnitude : 75.6182 average correaltion : 72.6291
+max_correlation : 0.68089normalized correlation : 20.7985  offest : 274776
+max_correlation : 0.662664normalized correlation : 20.5239  offest : 313176
+max_correlation : 0.663678normalized correlation : 20.7106  offest : 332376
+Decode nsss - frame : 1  cell : 1 correaltion magnitude : 71.8381 average correaltion : 72.4314
+max_correlation : 0.643513normalized correlation : 20.1645  offest : 370775
+Decode nsss - frame : 2  cell : 1 correaltion magnitude : 63.7226 average correaltion : 70.6896
+max_correlation : 0.649119normalized correlation : 20.3526  offest : 389976
+max_correlation : 0.665493normalized correlation : 20.9495  offest : 409175
+Decode nsss - frame : 3  cell : 1 correaltion magnitude : 70.7539 average correaltion : 70.7003
+max_correlation : 0.643742normalized correlation : 20.3798  offest : 447575
+Decode nsss - frame : 0  cell : 1 correaltion magnitude : 63.8405 average correaltion : 69.7204
+max_correlation : 0.693665normalized correlation : 21.8839  offest : 466776
+max_correlation : 0.681921normalized correlation : 21.5677  offest : 485976
+Decode nsss - frame : 1  cell : 1 correaltion magnitude : 70.9988 average correaltion : 69.8802
+max_correlation : 0.653537normalized correlation : 20.6476  offest : 505176
+max_correlation : 0.6422normalized correlation : 20.3238  offest : 524376
+Decode nsss - frame : 2  cell : 1 correaltion magnitude : 69.7203 average correaltion : 69.8624
+max_correlation : 0.668683normalized correlation : 21.1298  offest : 543575
+max_correlation : 0.678596normalized correlation : 21.5199  offest : 562774
+Decode nsss - frame : 3  cell : 1 correaltion magnitude : 67.2401 average correaltion : 69.6002
+max_correlation : 0.633823normalized correlation : 20.0886  offest : 581975
+max_correlation : 0.660857normalized correlation : 20.9477  offest : 620374
+max_correlation : 0.675691normalized correlation : 21.4531  offest : 639575
+Decode nsss - frame : 1  cell : 1 correaltion magnitude : 71.2192 average correaltion : 69.7473
+max_correlation : 0.63626normalized correlation : 20.188  offest : 658775
+max_correlation : 0.669179normalized correlation : 21.2573  offest : 677974
+Decode nsss - frame : 2  cell : 1 correaltion magnitude : 66.3769 average correaltion : 69.4665
+max_correlation : 0.649626normalized correlation : 20.6305  offest : 697175
+max_correlation : 0.662136normalized correlation : 21.0824  offest : 716375
+Decode nsss - frame : 3  cell : 1 correaltion magnitude : 72.3649 average correaltion : 69.6894
+max_correlation : 0.669034normalized correlation : 21.2682  offest : 735574
+max_correlation : 0.665302normalized correlation : 21.268  offest : 793175
+Decode nsss - frame : 1  cell : 1 correaltion magnitude : 71.6032 average correaltion : 69.8261
+max_correlation : 0.634182normalized correlation : 20.2659  offest : 812376
+max_correlation : 0.66171normalized correlation : 21.2414  offest : 869975
+******* MESSAGE DEBUG PRINT ********
+57600
+************************************
+Decode nsss - frame : 3  cell : 1 correaltion magnitude : 70.2132 average correaltion : 69.8519
+max_correlation : 0.631682normalized correlation : 20.3225  offest : 908374
+Decode nsss - frame : 0  cell : 1 correaltion magnitude : 64.8598 average correaltion : 69.5399
+max_correlation : 0.647899normalized correlation : 20.8415  offest : 927575
+max_correlation : 0.651926normalized correlation : 21.0041  offest : 946775
+Decode nsss - frame : 1  cell : 1 correaltion magnitude : 71.3911 average correaltion : 69.6488
+max_correlation : 0.658417normalized correlation : 21.2205  offest : 965974
+max_correlation : 0.689231normalized correlation : 22.2507  offest : 985175
+Decode nsss - frame : 2  cell : 1 correaltion magnitude : 69.2312 average correaltion : 69.6256
+max_correlation : 0.674915normalized correlation : 21.7759  offest : 1004373
+max_correlation : 0.625548normalized correlation : 20.2223  offest : 1023574
+Decode nsss - frame : 3  cell : 1 correaltion magnitude : 65.3426 average correaltion : 69.4002
+max_correlation : 0.667304normalized correlation : 21.5381  offest : 1042774
+max_correlation : 0.639556normalized correlation : 20.6513  offest : 1061974
+Decode nsss - frame : 0  cell : 1 correaltion magnitude : 63.6133 average correaltion : 69.1109
+max_correlation : 0.675212normalized correlation : 21.8315  offest : 1100375
+******* MESSAGE DEBUG PRINT ********
+38400
+************************************
+Decode nsss - frame : 1  cell : 1 correaltion magnitude : 67.0037 average correaltion : 69.0105
+max_correlation : 0.660665normalized correlation : 21.3196  offest : 1119574
+max_correlation : 0.623182normalized correlation : 20.1607  offest : 1138774
+Decode nsss - frame : 2  cell : 1 correaltion magnitude : 69.9366 average correaltion : 69.0526
+max_correlation : 0.660461normalized correlation : 21.3613  offest : 1157974
+max_correlation : 0.637567normalized correlation : 20.6471  offest : 1177173
+Decode nsss - frame : 3  cell : 1 correaltion magnitude : 71.2679 average correaltion : 69.1489
+max_correlation : 0.641502normalized correlation : 20.7822  offest : 1196375
+max_correlation : 0.651063normalized correlation : 21.066  offest : 1215573
+Decode nsss - frame : 0  cell : 1 correaltion magnitude : 66.8923 average correaltion : 69.0549
+max_correlation : 0.641132normalized correlation : 20.7318  offest : 1234774
+max_correlation : 0.678199normalized correlation : 21.8958  offest : 1253974
+Decode nsss - frame : 1  cell : 1 correaltion magnitude : 70.5787 average correaltion : 69.1159
+max_correlation : 0.661619normalized correlation : 21.3414  offest : 1273173
+max_correlation : 0.7102normalized correlation : 22.8773  offest : 1292374
+Decode nsss - frame : 2  cell : 1 correaltion magnitude : 73.0609 average correaltion : 69.2676
+max_correlation : 0.633555normalized correlation : 20.4014  offest : 1311573
+max_correlation : 0.689155normalized correlation : 22.1611  offest : 1330773
+Decode nsss - frame : 3  cell : 1 correaltion magnitude : 71.01 average correaltion : 69.3321
+max_correlation : 0.678603normalized correlation : 21.8098  offest : 1349974
+max_correlation : 0.6746normalized correlation : 21.6568  offest : 1369173
+Decode nsss - frame : 0  cell : 1 correaltion magnitude : 65.8726 average correaltion : 69.2086
+max_correlation : 0.702724normalized correlation : 22.54  offest : 1388373
+max_correlation : 0.639331normalized correlation : 20.4988  offest : 1407573
+Decode nsss - frame : 1  cell : 1 correaltion magnitude : 73.4341 average correaltion : 69.3543
+max_correlation : 0.635675normalized correlation : 20.3874  offest : 1426772
+max_correlation : 0.632643normalized correlation : 20.3042  offest : 1445973
+Decode nsss - frame : 2  cell : 1 correaltion magnitude : 68.6519 average correaltion : 69.3309
+max_correlation : 0.654989normalized correlation : 21.0289  offest : 1465172
+max_correlation : 0.634333normalized correlation : 20.3663  offest : 1484373
+Decode nsss - frame : 3  cell : 1 correaltion magnitude : 71.4915 average correaltion : 69.4006
+max_correlation : 0.656086normalized correlation : 21.0551  offest : 1503574
+max_correlation : 0.658168normalized correlation : 21.1469  offest : 1522773
+Decode nsss - frame : 0  cell : 1 correaltion magnitude : 66.0708 average correaltion : 69.2965
+max_correlation : 0.673934normalized correlation : 21.6866  offest : 1561173
+Decode nsss - frame : 1  cell : 1 correaltion magnitude : 68.6104 average correaltion : 69.2757
+max_correlation : 0.657623normalized correlation : 21.1495  offest : 1580373
+max_correlation : 0.641754normalized correlation : 20.6704  offest : 1599573
+Decode nsss - frame : 2  cell : 1 correaltion magnitude : 67.8359 average correaltion : 69.2334
+max_correlation : 0.657756normalized correlation : 21.1809  offest : 1618773
+max_correlation : 0.686918normalized correlation : 22.1348  offest : 1637972
+Decode nsss - frame : 3  cell : 1 correaltion magnitude : 72.0083 average correaltion : 69.3126
+max_correlation : 0.684814normalized correlation : 22.062  offest : 1657172
+max_correlation : 0.681115normalized correlation : 21.9463  offest : 1695572
+max_correlation : 0.678661normalized correlation : 21.9028  offest : 1733972
+max_correlation : 0.679961normalized correlation : 21.9652  offest : 1753170
+Decode nsss - frame : 2  cell : 1 correaltion magnitude : 70.4581 average correaltion : 69.3445
+max_correlation : 0.68106normalized correlation : 21.9791  offest : 1772370
+max_correlation : 0.662593normalized correlation : 21.3996  offest : 1
+0.145
+Warning: failed to XInitThreads()
+max_correlation : 0.00798004normalized correlation : 0.931025  offest : 1
+max_correlation : 0.677261normalized correlation : 20.2315  offest : 44378
+max_correlation : 0.670937normalized correlation : 20.0997  offest : 63578
+max_correlation : 0.669468normalized correlation : 20.0349  offest : 82778
+FFT: offset : 0 Size : 1 
+max_correlation : 0.68482normalized correlation : 20.4649  offest : 121177
+******* MESSAGE DEBUG PRINT ********
+38400
+************************************
+******* MESSAGE DEBUG PRINT ********
+57600
+************************************
+******* MESSAGE DEBUG PRINT ********
+76800
+************************************
+******* MESSAGE DEBUG PRINT ********
+96000
+************************************
+******* MESSAGE DEBUG PRINT ********
+115200
+************************************
+max_correlation : 0.687308normalized correlation : 20.5568  offest : 255578
+******* MESSAGE DEBUG PRINT ********
+134400
+************************************
+Decode nsss - frame : 3  cell : 1 correaltion magnitude : 65.3647 average correaltion : 65.3647
+max_correlation : 0.701827normalized correlation : 21.2739  offest : 293975
+******* MESSAGE DEBUG PRINT ********
+38400
+************************************
+Decode nsss - frame : 0  cell : 1 correaltion magnitude : 67.074 average correaltion : 66.2194
+max_correlation : 0.670585normalized correlation : 20.2688  offest : 313176
+max_correlation : 0.677059normalized correlation : 20.563  offest : 351576
+******* MESSAGE DEBUG PRINT ********
+57600
+************************************
+******* MESSAGE DEBUG PRINT ********
+76800
+************************************
+******* MESSAGE DEBUG PRINT ********
+96000
+************************************
+******* MESSAGE DEBUG PRINT ********
+115200
+************************************
+max_correlation : 0.656289normalized correlation : 20.4978  offest : 485975
+Decode nsss - frame : 1  cell : 1 correaltion magnitude : 65.0194 average correaltion : 65.8194
+max_correlation : 0.677844normalized correlation : 21.243  offest : 524375
+******* MESSAGE DEBUG PRINT ********
+38400
+************************************
+Decode nsss - frame : 2  cell : 1 correaltion magnitude : 62.0731 average correaltion : 64.8828
+******* MESSAGE DEBUG PRINT ********
+57600
+************************************
+******* MESSAGE DEBUG PRINT ********
+76800
+************************************
+max_correlation : 0.661042normalized correlation : 20.8413  offest : 620375
+max_correlation : 0.647417normalized correlation : 20.4681  offest : 639574
+Decode nsss - frame : 1  cell : 1 correaltion magnitude : 68.6455 average correaltion : 65.6354
+max_correlation : 0.637835normalized correlation : 20.2172  offest : 677975
+Decode nsss - frame : 2  cell : 1 correaltion magnitude : 68.0986 average correaltion : 66.0459
+max_correlation : 0.660215normalized correlation : 20.9163  offest : 697174
+max_correlation : 0.678511normalized correlation : 21.489  offest : 735575
+******* MESSAGE DEBUG PRINT ********
+38400
+************************************
+max_correlation : 0.660281normalized correlation : 21.0109  offest : 793174
+Decode nsss - frame : 1  cell : 1 correaltion magnitude : 60.3902 average correaltion : 65.2379
+max_correlation : 0.661502normalized correlation : 21.061  offest : 812375
+max_correlation : 0.646589normalized correlation : 20.6134  offest : 831575
+Decode nsss - frame : 2  cell : 1 correaltion magnitude : 66.0344 average correaltion : 65.3375
+max_correlation : 0.639838normalized correlation : 20.4069  offest : 850775
+max_correlation : 0.662793normalized correlation : 21.1591  offest : 869974
+Decode nsss - frame : 3  cell : 1 correaltion magnitude : 69.2632 average correaltion : 65.7737
+max_correlation : 0.632454normalized correlation : 20.1766  offest : 889174
+max_correlation : 0.685978normalized correlation : 21.9175  offest : 908374
+Decode nsss - frame : 0  cell : 1 correaltion magnitude : 65.9643 average correaltion : 65.7927
+max_correlation : 0.680633normalized correlation : 21.7306  offest : 927575
+max_correlation : 0.635882normalized correlation : 20.3318  offest : 946775
+Decode nsss - frame : 1  cell : 1 correaltion magnitude : 69.1852 average correaltion : 66.1011
+max_correlation : 0.677866normalized correlation : 21.6733  offest : 965974
+max_correlation : 0.687375normalized correlation : 22.0013  offest : 985174
+Decode nsss - frame : 2  cell : 1 correaltion magnitude : 65.0718 average correaltion : 66.0154
+max_correlation : 0.626785normalized correlation : 20.0412  offest : 1004374
+max_correlation : 0.636509normalized correlation : 20.3849  offest : 1023574
+Decode nsss - frame : 3  cell : 1 correaltion magnitude : 73.899 average correaltion : 66.6218
+max_correlation : 0.646292normalized correlation : 20.6879  offest : 1042774
+max_correlation : 0.656533normalized correlation : 21.0121  offest : 1081175
+max_correlation : 0.634095normalized correlation : 20.3039  offest : 1100373
+Decode nsss - frame : 1  cell : 1 correaltion magnitude : 60.98 average correaltion : 66.2188
+max_correlation : 0.641691normalized correlation : 20.5272  offest : 1119573
+max_correlation : 0.631271normalized correlation : 20.233  offest : 1138774
+Decode nsss - frame : 2  cell : 1 correaltion magnitude : 61.7609 average correaltion : 65.9216
+max_correlation : 0.652527normalized correlation : 20.9005  offest : 1157973
+max_correlation : 0.654529normalized correlation : 20.9912  offest : 1177174
+Decode nsss - frame : 3  cell : 1 correaltion magnitude : 67.8683 average correaltion : 66.0433
+max_correlation : 0.668197normalized correlation : 21.3823  offest : 1215573
+Decode nsss - frame : 0  cell : 1 correaltion magnitude : 63.3723 average correaltion : 65.8862
+max_correlation : 0.638608normalized correlation : 20.3861  offest : 1253973
+Decode nsss - frame : 1  cell : 1 correaltion magnitude : 67.4367 average correaltion : 65.9723
+max_correlation : 0.659154normalized correlation : 21.028  offest : 1273174
+max_correlation : 0.655551normalized correlation : 20.8948  offest : 1292374
+Decode nsss - frame : 2  cell : 1 correaltion magnitude : 68.0259 average correaltion : 66.0804
+max_correlation : 0.701048normalized correlation : 22.3119  offest : 1330773
+Decode nsss - frame : 3  cell : 1 correaltion magnitude : 70.759 average correaltion : 66.3143
+max_correlation : 0.63467normalized correlation : 20.198  offest : 1349973
+max_correlation : 0.64829normalized correlation : 20.5842  offest : 1388374
+max_correlation : 0.686018normalized correlation : 21.748  offest : 1426774
+max_correlation : 0.690847normalized correlation : 21.9165  offest : 1465173
+max_correlation : 0.676895normalized correlation : 21.4794  offest : 1503572
+max_correlation : 0.639378normalized correlation : 20.3206  offest : 1522772
+Decode nsss - frame : 0  cell : 1 correaltion magnitude : 66.436 average correaltion : 66.3201
+max_correlation : 0.633747normalized correlation : 20.1316  offest : 1541973
+max_correlation : 0.630541normalized correlation : 20.0551  offest : 1561173
+Decode nsss - frame : 1  cell : 1 correaltion magnitude : 71.5973 average correaltion : 66.56
+max_cor
+0.15
+Warning: failed to XInitThreads()
+max_correlation : 0.0122286normalized correlation : 0.988573  offest : 1
+max_correlation : 0.666074normalized correlation : 20.4079  offest : 5978
+max_correlation : 0.659083normalized correlation : 20.0555  offest : 44378
+max_correlation : 0.702553normalized correlation : 20.9893  offest : 255576
+max_correlation : 0.67907normalized correlation : 20.7504  offest : 370775
+max_correlation : 0.680558normalized correlation : 20.8348  offest : 389975
+max_correlation : 0.706445normalized correlation : 21.6215  offest : 428375
+FFT: offset : 0 Size : 1 
+max_correlation : 0.660713normalized correlation : 20.2933  offest : 447576
+Decode nsss - frame : 0  cell : 1 correaltion magnitude : 65.1934 average correaltion : 65.1934
+******* MESSAGE DEBUG PRINT ********
+38400
+************************************
+max_correlation : 0.668742normalized correlation : 20.6036  offest : 505175
+******* MESSAGE DEBUG PRINT ********
+57600
+************************************
+max_correlation : 0.715108normalized correlation : 22.1006  offest : 524375
+Decode nsss - frame : 2  cell : 1 correaltion magnitude : 67.6811 average correaltion : 66.4372
+******* MESSAGE DEBUG PRINT ********
+38400
+************************************
+******* MESSAGE DEBUG PRINT ********
+57600
+************************************
+******* MESSAGE DEBUG PRINT ********
+76800
+************************************
+******* MESSAGE DEBUG PRINT ********
+96000
+************************************
+******* MESSAGE DEBUG PRINT ********
+115200
+************************************
+******* MESSAGE DEBUG PRINT ********
+134400
+************************************
+max_correlation : 0.665691normalized correlation : 20.778  offest : 677975
+Decode nsss - frame : 2  cell : 1 correaltion magnitude : 67.3013 average correaltion : 66.7253
+max_correlation : 0.684504normalized correlation : 21.2958  offest : 697175
+max_correlation : 0.666569normalized correlation : 20.7355  offest : 716375
+Decode nsss - frame : 3  cell : 1 correaltion magnitude : 72.2685 average correaltion : 68.1111
+max_correlation : 0.6459normalized correlation : 20.0816  offest : 735574
+max_correlation : 0.651302normalized correlation : 20.3113  offest : 773974
+******* MESSAGE DEBUG PRINT ********
+38400
+************************************
+max_correlation : 0.644602normalized correlation : 20.1769  offest : 812375
+max_correlation : 0.647747normalized correlation : 20.316  offest : 831574
+Decode nsss - frame : 2  cell : 1 correaltion magnitude : 66.7206 average correaltion : 67.833
+******* MESSAGE DEBUG PRINT ********
+57600
+************************************
+max_correlation : 0.681751normalized correlation : 21.4287  offest : 908374
+******* MESSAGE DEBUG PRINT ********
+76800
+************************************
+Decode nsss - frame : 0  cell : 1 correaltion magnitude : 67.2864 average correaltion : 67.7419
+max_correlation : 0.648488normalized correlation : 20.3421  offest : 927575
+******* MESSAGE DEBUG PRINT ********
+38400
+************************************
+max_correlation : 0.659166normalized correlation : 20.712  offest : 985174
+******* MESSAGE DEBUG PRINT ********
+57600
+************************************
+Decode nsss - frame : 2  cell : 1 correaltion magnitude : 65.6272 average correaltion : 67.4398
+max_correlation : 0.655666normalized correlation : 20.6173  offest : 1004374
+******* MESSAGE DEBUG PRINT ********
+38400
+************************************
+max_correlation : 0.644463normalized correlation : 20.3415  offest : 1061974
+Decode nsss - frame : 0  cell : 1 correaltion magnitude : 68.3618 average correaltion : 67.555
+max_correlation : 0.662687normalized correlation : 20.916  offest : 1081174
+max_correlation : 0.674083normalized correlation : 21.2808  offest : 1138774
+******* MESSAGE DEBUG PRINT ********
+57600
+************************************
+Decode nsss - frame : 2  cell : 1 correaltion magnitude : 64.0698 average correaltion : 67.1678
+max_correlation : 0.645729normalized correlation : 20.3946  offest : 1177174
+Decode nsss - frame : 3  cell : 1 correaltion magnitude : 71.6584 average correaltion : 67.6169
+max_correlation : 0.643627normalized correlation : 20.2996  offest : 1196374
+max_correlation : 0.636371normalized correlation : 20.0484  offest : 1215573
+Decode nsss - frame : 0  cell : 1 correaltion magnitude : 64.158 average correaltion : 67.3024
+******* MESSAGE DEBUG PRINT ********
+38400
+************************************
+max_correlation : 0.69041normalized correlation : 21.6924  offest : 1273174
+******* MESSAGE DEBUG PRINT ********
+57600
+************************************
+max_correlation : 0.639774normalized correlation : 20.0799  offest : 1311573
+******* MESSAGE DEBUG PRINT ********
+38400
+************************************
+max_correlation : 0.643762normalized correlation : 20.1823  offest : 1349974
+max_correlation : 0.641382normalized correlation : 20.0816  offest : 1388373
+max_correlation : 0.646272normalized correlation : 20.2188  offest : 1426773
+******* MESSAGE DEBUG PRINT ********
+57600
+************************************
+******* MESSAGE DEBUG PRINT ********
+76800
+************************************
+max_correlation : 0.641555normalized correlation : 20.0825  offest : 1503572
+max_correlation : 0.656832normalized correlation : 20.5797  offest : 1522773
+Decode nsss - frame : 0  cell : 1 correaltion magnitude : 63.0455 average correaltion : 66.9477
+max_correlation : 0.662201normalized correlation : 20.7281  offest : 1541973
+max_correlation : 0.662405normalized correlation : 20.7568  offest : 1580372
+******* MESSAGE DEBUG PRINT ********
+38400
+
+0.155
+Warning: failed to XInitThreads()
+max_correlation : 0.00546325normalized correlation : 1.13984  offest : 1
+max_correlation : 0.649969normalized correlation : 20.1524  offest : 5977
+max_correlation : 0.686761normalized correlation : 20.3282  offest : 82777
+max_correlation : 0.680772normalized correlation : 20.0658  offest : 197977
+max_correlation : 0.667834normalized correlation : 20.162  offest : 447576
+max_correlation : 0.678782normalized correlation : 20.5109  offest : 485976
+max_correlation : 0.669103normalized correlation : 20.3058  offest : 543575
+max_correlation : 0.675385normalized correlation : 20.5791  offest : 581975
+max_correlation : 0.672236normalized correlation : 20.4928  offest : 601175
+max_correlation : 0.691656normalized correlation : 21.0924  offest : 697174
+FFT: offset : 0 Size : 1 
+max_correlation : 0.669539normalized correlation : 20.4656  offest : 735575
+******* MESSAGE DEBUG PRINT ********
+38400
+************************************
+max_correlation : 0.678213normalized correlation : 20.7376  offest : 754776
+Decode nsss - frame : 0  cell : 1 correaltion magnitude : 63.3132 average correaltion : 63.3132
+max_correlation : 0.684353normalized correlation : 20.9169  offest : 773975
+max_correlation : 0.686734normalized correlation : 21.0322  offest : 831574
+Decode nsss - frame : 2  cell : 1 correaltion magnitude : 69.8339 average correaltion : 66.5735
+max_correlation : 0.658065normalized correlation : 20.1876  offest : 869975
+Decode nsss - frame : 3  cell : 1 correaltion magnitude : 71.3227 average correaltion : 68.1566
+max_correlation : 0.710136normalized correlation : 21.744  offest : 927574
+******* MESSAGE DEBUG PRINT ********
+57600
+************************************
+max_correlation : 0.682701normalized correlation : 20.9281  offest : 946775
+Decode nsss - frame : 1  cell : 1 correaltion magnitude : 69.4137 average correaltion : 68.4709
+max_correlation : 0.697393normalized correlation : 21.3578  offest : 965974
+max_correlation : 0.659906normalized correlation : 20.2264  offest : 1004373
+max_correlation : 0.659065normalized correlation : 20.2353  offest : 1042774
+******* MESSAGE DEBUG PRINT ********
+38400
+************************************
+******* MESSAGE DEBUG PRINT ********
+57600
+************************************
+******* MESSAGE DEBUG PRINT ********
+76800
+************************************
+max_correlation : 0.65868normalized correlation : 20.3281  offest : 1138773
+******* MESSAGE DEBUG PRINT ********
+96000
+************************************
+Decode nsss - frame : 2  cell : 1 correaltion magnitude : 66.7229 average correaltion : 68.1213
+max_correlation : 0.666308normalized correlation : 20.5561  offest : 1157975
+max_correlation : 0.68083normalized correlation : 21.0071  offest : 1177174
+Decode nsss - frame : 3  cell : 1 correaltion magnitude : 72.1088 average correaltion : 68.7859
+******* MESSAGE DEBUG PRINT ********
+38400
+************************************
+max_correlation : 0.662088normalized correlation : 20.3549  offest : 1234774
+max_correlation : 0.657601normalized correlation : 20.1957  offest : 1253974
+Decode nsss - frame : 1  cell : 1 correaltion magnitude : 65.3452 average correaltion : 68.2943
+******* MESSAGE DEBUG PRINT ********
+57600
+************************************
+max_correlation : 0.675431normalized correlation : 20.7135  offest : 1330773
+******* MESSAGE DEBUG PRINT ********
+76800
+************************************
+Decode nsss - frame : 3  cell : 1 correaltion magnitude : 71.8914 average correaltion : 68.744
+max_correlation : 0.72637normalized correlation : 22.267  offest : 1349972
+max_correlation : 0.717125normalized correlation : 21.9681  offest : 1369172
+Decode nsss - frame : 0  cell : 1 correaltion magnitude : 58.8356 average correaltion : 67.643
+max_correlation : 0.670524normalized correlation : 20.5305  offest : 1388372
+******* MESSAGE DEBUG PRINT ********
+38400
+************************************
+******* MESSAGE DEBUG PRINT ********
+57600
+************************************
+max_correlation : 0.657834normalized correlation : 20.1288  offest : 1465173
+max_correlation : 0.65849normalized correlation : 20.1226  offest : 1484374
+Decode nsss - frame : 3  cell : 1 correaltion magnitude : 65.1967 average correaltion : 67.3984
+******* MESSAGE DEBUG PRINT ********
+38400
+************************************
+max_correlation : 0.67347normalized correlation : 20.5703  offest : 1522772
+Decode nsss - frame : 0  cell : 1 correaltion magnitude : 60.5047 average correaltion : 66.7717
+max_correlation : 0.68072normalized correlation : 20.7797  offest : 1541972
+max_correlation : 0.678004normalized correlation : 20.7335  offest : 1599572
+Decode nsss - frame : 2  cell : 1 correaltion magnitude : 68.7646 average correaltion : 66.9378
+******* MESSAGE DEBUG PRINT ********
+57600
+************************************
+******* MESSAGE DEBUG PRINT ********
+76800
+************************************
+max_correlation : 0.658646normalized correlation : 20.1684  offest : 1695571
+******* MESSAGE DEBUG PRINT ********
+38400
+************************************
+******* MESSAGE DEBUG PRINT ********
+57600
+************************************
+******* MESSAGE DEBUG PRINT ********
+76800
+************************************
+******* MESSAGE DEBUG PRINT ********
+96000
+************************************
+max_correlation : 0.652987normalized correlation : 20.0246  offest : 1810771
+******* MESSAGE DEBUG PRINT ********
+38400
+************************************
+******* MESSAGE DEBUG PRINT ********
+57600
+
+0.16
+Warning: failed to XInitThreads()
+max_correlation : 2.73584e+23normalized correlation : 2.00168e+25  offest : 1718019616
+max_correlation : 0.679265normalized correlation : 20.1528  offest : 466776
+max_correlation : 0.697532normalized correlation : 20.9241  offest : 658775
+max_correlation : 0.691515normalized correlation : 20.8021  offest : 697175
+max_correlation : 0.687183normalized correlation : 20.8183  offest : 793176
+max_correlation : 0.659294normalized correlation : 20.0419  offest : 927575
+max_correlation : 0.666826normalized correlation : 20.2876  offest : 946773
+max_correlation : 0.678482normalized correlation : 20.6587  offest : 985174
+max_correlation : 0.671958normalized correlation : 20.5018  offest : 1081174
+max_correlation : 0.666215normalized correlation : 20.3513  offest : 1234773
+max_correlation : 0.684673normalized correlation : 20.8862  offest : 1273173
+max_correlation : 0.722899normalized correlation : 21.962  offest : 1426774
+max_correlation : 0.694823normalized correlation : 21.1129  offest : 1541972
+max_correlation : 0.680113normalized correlation : 20.6873  offest : 1561172
+max_correlation : 0.660717normalized correlation : 20.0793  offest : 1580372
+FFT: offset : 0 Size : 1 
+max_correlation : 0.710233normalized correlation : 21.6003  offest : 1618774
+******* MESSAGE DEBUG PRINT ********
+38400
+************************************
+max_correlation : 0.708559normalized correlation : 21.5846  offest : 1676373
+Decode nsss - frame : 0  cell : 1 correaltion magnitude : 60.4215 average correaltion : 60.4215
+******* MESSAGE DEBUG PRINT ********
+57600
+************************************
+max_correlation : 0.668603normalized correlation : 20.3917  offest : 1753171
+Decode nsss - frame : 2  cell : 1 correaltion magnitude : 68.8951 average correaltion : 64.6583
+max_correlation : 0.669526******* MESSAGE DEBUG PRINT ********
+normalized correlation : 20.4264  offest : 1791570
+38400
+************************************
+Decode nsss - frame : 3  cell : 1 correaltion magnitude : 70.9992 average correaltion : 66.7719
+max_correlation : 0.717512normalized correlation : 21.8701  offest : 1810770
+******* MESSAGE DEBUG PRINT ********
+57600
+************************************
+******* MESSAGE DEBUG PRINT ********
+76800
+************************************
+******* MESSAGE DEBUG PRINT ********
+96000
+
+0.165
+Warning: failed to XInitThreads()
+max_correlation : 0.0255893normalized correlation : 0.99057  offest : 1
+max_correlation : 0.684673normalized correlation : 20.1958  offest : 370777
+max_correlation : 0.674693normalized correlation : 20.153  offest : 620375
+max_correlation : 0.680106normalized correlation : 20.4093  offest : 754774
+max_correlation : 0.680953normalized correlation : 20.4677  offest : 812375
+max_correlation : 0.684241normalized correlation : 20.6225  offest : 927574
+max_correlation : 0.7077normalized correlation : 21.3238  offest : 985174
+max_correlation : 0.684044normalized correlation : 20.5989  offest : 1119573
+max_correlation : 0.71789normalized correlation : 21.5562  offest : 1253974
+max_correlation : 0.668631normalized correlation : 20.0781  offest : 1273174
+max_correlation : 0.680362normalized correlation : 20.3086  offest : 1503572
+FFT: offset : 0 Size : 1 
+******* MESSAGE DEBUG PRINT ********
+38400
+************************************
+******* MESSAGE DEBUG PRINT ********
+57600
+************************************
+max_correlation : 0.66915normalized correlation : 19.9817  offest : 1580373
+******* MESSAGE DEBUG PRINT ********
+38400
+************************************
+******* MESSAGE DEBUG PRINT ********
+57600
+************************************
+max_correlation : 0.693102normalized correlation : 20.6884  offest : 1657172
+******* MESSAGE DEBUG PRINT ********
+76800
+************************************
+******* MESSAGE DEBUG PRINT ********
+38400
+************************************
+******* MESSAGE DEBUG PRINT ********
+57600
+************************************
+******* MESSAGE DEBUG PRINT ********
+76800
+************************************
+******* MESSAGE DEBUG PRINT ********
+96000
+************************************
+******* MESSAGE DEBUG PRINT ********
+115200
+************************************
+******* MESSAGE DEBUG PRINT ********
+134400
+************************************
+max_correlation : 0.677393normalized correlation : 20.2501  offest : 1810771
+max_correlation : 0.690034normalized correlation : 20.6334  offest : 1829970
+Decode nsss - frame : 0  cell : 1 correaltion magnitude : 64.9235 average correaltion : 64.9235
+max_correlation : 0.678212normalized correlation : 20.3013  offest : 1868372
+Decode nsss - frame : 1  cell : 1 correaltion magnitude : 58.2177 average correaltion : 61.5706
+******* MESSAGE DEBUG PRINT ********
+38400
+
+0.17
+Warning: failed to XInitThreads()
+max_correlation : 0.0100641normalized correlation : 1.10716  offest : 1
+max_correlation : 0.698352normalized correlation : 20.4411  offest : 543575
+max_correlation : 0.696391normalized correlation : 20.3827  offest : 581975
+max_correlation : 0.698241normalized correlation : 20.5559  offest : 735574
+max_correlation : 0.693306normalized correlation : 20.4339  offest : 773975
+max_correlation : 0.69228normalized correlation : 20.4145  offest : 869974
+max_correlation : 0.693042normalized correlation : 20.5112  offest : 1061974
+max_correlation : 0.69479normalized correlation : 20.5691  offest : 1119574
+max_correlation : 0.676455normalized correlation : 20.0425  offest : 1157974
+max_correlation : 0.684253normalized correlation : 20.2774  offest : 1177173
+max_correlation : 0.685775normalized correlation : 20.1889  offest : 1369174
+FFT: offset : 0 Size : 1 
+Decode nsss - frame : 0  cell : 1 correaltion magnitude : 64.9392 average correaltion : 64.9392
+max_correlation : 0.686321normalized correlation : 20.1871  offest : 1388372
+******* MESSAGE DEBUG PRINT ********
+38400
+************************************
+******* MESSAGE DEBUG PRINT ********
+57600
+************************************
+******* MESSAGE DEBUG PRINT ********
+76800
+************************************
+******* MESSAGE DEBUG PRINT ********
+96000
+************************************
+******* MESSAGE DEBUG PRINT ********
+115200
+************************************
+******* MESSAGE DEBUG PRINT ********
+134400
+************************************
+******* MESSAGE DEBUG PRINT ********
+153600
+************************************
+******* MESSAGE DEBUG PRINT ********
+172800
+************************************
+******* MESSAGE DEBUG PRINT ********
+192000
+************************************
+******* MESSAGE DEBUG PRINT ********
+211200
+************************************
+******* MESSAGE DEBUG PRINT ********
+230400
+************************************
+******* MESSAGE DEBUG PRINT ********
+249600
+************************************
+******* MESSAGE DEBUG PRINT ********
+268800
+************************************
+max_correlation : 0.679834normalized correlation : 20.0649  offest : 1676372
+Decode nsss - frame : 0  cell : 1 correaltion magnitude : 67.9047 average correaltion : 66.422
+******* MESSAGE DEBUG PRINT ********
+38400
+************************************
+******* MESSAGE DEBUG PRINT ********
+57600
+************************************
+max_correlation : 0.696319normalized correlation : 20.5914  offest : 1753171
+******* MESSAGE DEBUG PRINT ********
+76800
+************************************
+Decode nsss - frame : 2  cell : 1 correaltion magnitude : 65.4028 average correaltion : 66.0823
+max_correlation : 0.679992normalized correlation : 20.1041  offest : 1791570
+Decode nsss - frame : 3  cell : 1 correaltion magnitude : 64.3291 average correaltion : 65.644
+******* MESSAGE DEBUG PRINT ********
+38400
+************************************
+******* MESSAGE DEBUG PRINT ********
+57600
+************************************
+******* MESSAGE DEBUG PRINT ********
+76800
+************************************
+max_correlation : 0.686429normalized correlation : 20.2999  offest : 1868370
+Decode nsss - frame : 1  cell : 1 correaltion magnitude : 63.1025 average correaltion : 65.1357
+******* MESSAGE DEBUG PRINT ********
+38400
+
+0.175
+
+0.18
+
+0.185
+
+0.19
+
+0.195
+
+0.2
