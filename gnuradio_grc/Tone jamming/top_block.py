@@ -3,7 +3,7 @@
 ##################################################
 # GNU Radio Python Flow Graph
 # Title: Top Block
-# Generated: Sat Sep 28 18:40:46 2019
+# Generated: Wed Oct  2 20:23:05 2019
 ##################################################
 
 from distutils.version import StrictVersion
@@ -73,7 +73,7 @@ class top_block(gr.top_block, Qt.QWidget):
         self.subarrier_index_0 = subarrier_index_0 = 0
         self.subarrier_index = subarrier_index = 0
         self.samp_rate = samp_rate = 10000000
-        self.noise_gain = noise_gain = 0.3
+        self.noise_gain = noise_gain = 0.2
         self.nb_subcarrier_0 = nb_subcarrier_0 = 1
         self.nb_subcarrier = nb_subcarrier = 1
         self.nb_frame = nb_frame = 12
@@ -385,10 +385,6 @@ def main(top_block_cls=top_block, options=None):
     qapp = Qt.QApplication(sys.argv)
 
     tb = top_block_cls()
-
-    print(str(tb.get_subarrier_index()))
-    print(str(tb.get_nb_subcarrier()))
-
     tb.start()
     tb.show()
 
