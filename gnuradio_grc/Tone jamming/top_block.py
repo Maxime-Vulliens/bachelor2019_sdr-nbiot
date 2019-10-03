@@ -3,7 +3,7 @@
 ##################################################
 # GNU Radio Python Flow Graph
 # Title: Top Block
-# Generated: Wed Oct  2 20:23:05 2019
+# Generated: Thu Oct  3 21:03:10 2019
 ##################################################
 
 from distutils.version import StrictVersion
@@ -70,13 +70,13 @@ class top_block(gr.top_block, Qt.QWidget):
         ##################################################
         # Variables
         ##################################################
-        self.subarrier_index_0 = subarrier_index_0 = 0
+        self.subarrier_index_1 = subarrier_index_1 = 0
         self.subarrier_index = subarrier_index = 0
         self.samp_rate = samp_rate = 10000000
         self.noise_gain = noise_gain = 0.2
-        self.nb_subcarrier_0 = nb_subcarrier_0 = 1
+        self.nb_subcarrier_1 = nb_subcarrier_1 = 1
         self.nb_subcarrier = nb_subcarrier = 1
-        self.nb_frame = nb_frame = 12
+        self.nb_frame = nb_frame = 2
         self.lo_gain = lo_gain = 1
         self.lo_freq = lo_freq = -620011.0
         self.iot_samp_rate = iot_samp_rate = 1920000
@@ -84,10 +84,33 @@ class top_block(gr.top_block, Qt.QWidget):
         ##################################################
         # Blocks
         ##################################################
+        self.tab = Qt.QTabWidget()
+        self.tab_widget_0 = Qt.QWidget()
+        self.tab_layout_0 = Qt.QBoxLayout(Qt.QBoxLayout.TopToBottom, self.tab_widget_0)
+        self.tab_grid_layout_0 = Qt.QGridLayout()
+        self.tab_layout_0.addLayout(self.tab_grid_layout_0)
+        self.tab.addTab(self.tab_widget_0, 'Frequency')
+        self.tab_widget_1 = Qt.QWidget()
+        self.tab_layout_1 = Qt.QBoxLayout(Qt.QBoxLayout.TopToBottom, self.tab_widget_1)
+        self.tab_grid_layout_1 = Qt.QGridLayout()
+        self.tab_layout_1.addLayout(self.tab_grid_layout_1)
+        self.tab.addTab(self.tab_widget_1, 'Time')
+        self.tab_widget_2 = Qt.QWidget()
+        self.tab_layout_2 = Qt.QBoxLayout(Qt.QBoxLayout.TopToBottom, self.tab_widget_2)
+        self.tab_grid_layout_2 = Qt.QGridLayout()
+        self.tab_layout_2.addLayout(self.tab_grid_layout_2)
+        self.tab.addTab(self.tab_widget_2, 'fft')
+        self.top_layout.addWidget(self.tab)
+        self._subarrier_index_range = Range(0, 11, 1, 0, 200)
+        self._subarrier_index_win = RangeWidget(self._subarrier_index_range, self.set_subarrier_index, 'subarrier_index', "counter_slider", int)
+        self.top_layout.addWidget(self._subarrier_index_win)
         self._noise_gain_range = Range(0, 1, 0.01, 0.2, 200)
         self._noise_gain_win = RangeWidget(self._noise_gain_range, self.set_noise_gain, 'noise_gain', "counter_slider", float)
         self.top_layout.addWidget(self._noise_gain_win)
-        self._nb_frame_range = Range(1, 100, 1, 12, 20)
+        self._nb_subcarrier_range = Range(1, 12, 1, 1, 200)
+        self._nb_subcarrier_win = RangeWidget(self._nb_subcarrier_range, self.set_nb_subcarrier, 'nb_subcarrier', "counter_slider", int)
+        self.top_layout.addWidget(self._nb_subcarrier_win)
+        self._nb_frame_range = Range(1, 100, 1, 2, 20)
         self._nb_frame_win = RangeWidget(self._nb_frame_range, self.set_nb_frame, 'nb_frame', "counter_slider", int)
         self.top_layout.addWidget(self._nb_frame_win)
         self._lo_gain_range = Range(1, 100, 1, 1, 200)
@@ -96,9 +119,6 @@ class top_block(gr.top_block, Qt.QWidget):
         self._lo_freq_range = Range(-650000, -600000, 1, -620011.0, 20)
         self._lo_freq_win = RangeWidget(self._lo_freq_range, self.set_lo_freq, 'lo_freq', "counter_slider", float)
         self.top_layout.addWidget(self._lo_freq_win)
-        self._subarrier_index_0_range = Range(0, 11, 1, 0, 200)
-        self._subarrier_index_0_win = RangeWidget(self._subarrier_index_0_range, self.set_subarrier_index_0, 'subarrier_index_0', "counter_slider", int)
-        self.top_layout.addWidget(self._subarrier_index_0_win)
         self.rational_resampler_xxx_0 = filter.rational_resampler_ccc(
                 interpolation=192,
                 decimation=200,
@@ -155,7 +175,7 @@ class top_block(gr.top_block, Qt.QWidget):
             self.qtgui_time_sink_x_1.set_line_alpha(i, alphas[i])
 
         self._qtgui_time_sink_x_1_win = sip.wrapinstance(self.qtgui_time_sink_x_1.pyqwidget(), Qt.QWidget)
-        self.top_layout.addWidget(self._qtgui_time_sink_x_1_win)
+        self.tab_layout_1.addWidget(self._qtgui_time_sink_x_1_win)
         self.qtgui_time_sink_x_0_0 = qtgui.time_sink_f(
         	12*14*nb_frame, #size
         	iot_samp_rate*896/960*12/128, #samp_rate
@@ -203,7 +223,7 @@ class top_block(gr.top_block, Qt.QWidget):
             self.qtgui_time_sink_x_0_0.set_line_alpha(i, alphas[i])
 
         self._qtgui_time_sink_x_0_0_win = sip.wrapinstance(self.qtgui_time_sink_x_0_0.pyqwidget(), Qt.QWidget)
-        self.top_layout.addWidget(self._qtgui_time_sink_x_0_0_win)
+        self.tab_layout_2.addWidget(self._qtgui_time_sink_x_0_0_win)
         self.qtgui_time_sink_x_0 = qtgui.time_sink_f(
         	12*14*nb_frame, #size
         	iot_samp_rate*896/960*12/128, #samp_rate
@@ -251,14 +271,54 @@ class top_block(gr.top_block, Qt.QWidget):
             self.qtgui_time_sink_x_0.set_line_alpha(i, alphas[i])
 
         self._qtgui_time_sink_x_0_win = sip.wrapinstance(self.qtgui_time_sink_x_0.pyqwidget(), Qt.QWidget)
-        self.top_layout.addWidget(self._qtgui_time_sink_x_0_win)
+        self.tab_layout_2.addWidget(self._qtgui_time_sink_x_0_win)
+        self.qtgui_freq_sink_x_0 = qtgui.freq_sink_c(
+        	1024, #size
+        	firdes.WIN_RECTANGULAR, #wintype
+        	0, #fc
+        	samp_rate, #bw
+        	"", #name
+        	2 #number of inputs
+        )
+        self.qtgui_freq_sink_x_0.set_update_time(0.10)
+        self.qtgui_freq_sink_x_0.set_y_axis(-140, 10)
+        self.qtgui_freq_sink_x_0.set_y_label('Relative Gain', 'dB')
+        self.qtgui_freq_sink_x_0.set_trigger_mode(qtgui.TRIG_MODE_FREE, 0.0, 0, "")
+        self.qtgui_freq_sink_x_0.enable_autoscale(False)
+        self.qtgui_freq_sink_x_0.enable_grid(False)
+        self.qtgui_freq_sink_x_0.set_fft_average(1.0)
+        self.qtgui_freq_sink_x_0.enable_axis_labels(True)
+        self.qtgui_freq_sink_x_0.enable_control_panel(False)
+
+        if not True:
+          self.qtgui_freq_sink_x_0.disable_legend()
+
+        if "complex" == "float" or "complex" == "msg_float":
+          self.qtgui_freq_sink_x_0.set_plot_pos_half(not True)
+
+        labels = ['', '', '', '', '',
+                  '', '', '', '', '']
+        widths = [1, 1, 1, 1, 1,
+                  1, 1, 1, 1, 1]
+        colors = ["blue", "red", "green", "black", "cyan",
+                  "magenta", "yellow", "dark red", "dark green", "dark blue"]
+        alphas = [1.0, 1.0, 1.0, 1.0, 1.0,
+                  1.0, 1.0, 1.0, 1.0, 1.0]
+        for i in xrange(2):
+            if len(labels[i]) == 0:
+                self.qtgui_freq_sink_x_0.set_line_label(i, "Data {0}".format(i))
+            else:
+                self.qtgui_freq_sink_x_0.set_line_label(i, labels[i])
+            self.qtgui_freq_sink_x_0.set_line_width(i, widths[i])
+            self.qtgui_freq_sink_x_0.set_line_color(i, colors[i])
+            self.qtgui_freq_sink_x_0.set_line_alpha(i, alphas[i])
+
+        self._qtgui_freq_sink_x_0_win = sip.wrapinstance(self.qtgui_freq_sink_x_0.pyqwidget(), Qt.QWidget)
+        self.tab_layout_0.addWidget(self._qtgui_freq_sink_x_0_win)
         self.nbiot_remove_cp_0 = nbiot.remove_cp()
         self.nbiot_nsss_decode_0 = nbiot.nsss_decode()
         self.nbiot_npss_sync_0 = nbiot.npss_sync()
         self.nbiot_custom_fft_0 = nbiot.custom_fft()
-        self._nb_subcarrier_0_range = Range(1, 12, 1, 1, 200)
-        self._nb_subcarrier_0_win = RangeWidget(self._nb_subcarrier_0_range, self.set_nb_subcarrier_0, 'nb_subcarrier_0', "counter_slider", int)
-        self.top_layout.addWidget(self._nb_subcarrier_0_win)
         self.low_pass_filter_0 = filter.fir_filter_ccf(5, firdes.low_pass(
         	lo_gain, samp_rate, 210000, 10000, firdes.WIN_RECTANGULAR, 6.76))
         self.blocks_wavfile_source_0 = blocks.wavfile_source('/home/gnuradio/Desktop/Records/SDRSharp_20190522_083545Z_737686889Hz_IQ-1-1s.wav', False)
@@ -286,7 +346,9 @@ class top_block(gr.top_block, Qt.QWidget):
         self.connect((self.blocks_complex_to_mag_0_0, 0), (self.qtgui_time_sink_x_0_0, 0))
         self.connect((self.blocks_float_to_complex_0, 0), (self.blocks_multiply_xx_0_0, 0))
         self.connect((self.blocks_multiply_xx_0_0, 0), (self.blocks_add_xx_0, 0))
+        self.connect((self.blocks_multiply_xx_0_0, 0), (self.qtgui_freq_sink_x_0, 1))
         self.connect((self.blocks_throttle_0_0, 0), (self.low_pass_filter_0, 0))
+        self.connect((self.blocks_throttle_0_0, 0), (self.qtgui_freq_sink_x_0, 0))
         self.connect((self.blocks_wavfile_source_0, 0), (self.blocks_float_to_complex_0, 0))
         self.connect((self.blocks_wavfile_source_0, 1), (self.blocks_float_to_complex_0, 1))
         self.connect((self.low_pass_filter_0, 0), (self.rational_resampler_xxx_0, 0))
@@ -304,11 +366,11 @@ class top_block(gr.top_block, Qt.QWidget):
         self.settings.setValue("geometry", self.saveGeometry())
         event.accept()
 
-    def get_subarrier_index_0(self):
-        return self.subarrier_index_0
+    def get_subarrier_index_1(self):
+        return self.subarrier_index_1
 
-    def set_subarrier_index_0(self, subarrier_index_0):
-        self.subarrier_index_0 = subarrier_index_0
+    def set_subarrier_index_1(self, subarrier_index_1):
+        self.subarrier_index_1 = subarrier_index_1
 
     def get_subarrier_index(self):
         return self.subarrier_index
@@ -322,6 +384,7 @@ class top_block(gr.top_block, Qt.QWidget):
 
     def set_samp_rate(self, samp_rate):
         self.samp_rate = samp_rate
+        self.qtgui_freq_sink_x_0.set_frequency_range(0, self.samp_rate)
         self.low_pass_filter_0.set_taps(firdes.low_pass(self.lo_gain, self.samp_rate, 210000, 10000, firdes.WIN_RECTANGULAR, 6.76))
         self.blocks_throttle_0_0.set_sample_rate(self.samp_rate)
         self.band_pass_filter_0.set_taps(firdes.band_pass(1, self.samp_rate, self.subarrier_index*15000+1, self.subarrier_index*15000+(self.nb_subcarrier*15000), 10000, firdes.WIN_HAMMING, 6.76))
@@ -334,11 +397,11 @@ class top_block(gr.top_block, Qt.QWidget):
         self.noise_gain = noise_gain
         self.analog_noise_source_x_0.set_amplitude(self.noise_gain)
 
-    def get_nb_subcarrier_0(self):
-        return self.nb_subcarrier_0
+    def get_nb_subcarrier_1(self):
+        return self.nb_subcarrier_1
 
-    def set_nb_subcarrier_0(self, nb_subcarrier_0):
-        self.nb_subcarrier_0 = nb_subcarrier_0
+    def set_nb_subcarrier_1(self, nb_subcarrier_1):
+        self.nb_subcarrier_1 = nb_subcarrier_1
 
     def get_nb_subcarrier(self):
         return self.nb_subcarrier

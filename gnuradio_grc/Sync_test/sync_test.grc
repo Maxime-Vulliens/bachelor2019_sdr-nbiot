@@ -116,7 +116,7 @@
     </param>
     <param>
       <key>value</key>
-      <value>-306900</value>
+      <value>-620011</value>
     </param>
     <param>
       <key>_enabled</key>
@@ -842,7 +842,7 @@
     </param>
     <param>
       <key>file</key>
-      <value>/home/gnuradio/Desktop/Records/test/SDRSharp_20190926_131406Z_738000000Hz_IQ_2.wav</value>
+      <value>/home/gnuradio/Desktop/Records/SDRSharp_20190522_083545Z_737686889Hz_IQ-1.wav</value>
     </param>
     <param>
       <key>_coordinate</key>

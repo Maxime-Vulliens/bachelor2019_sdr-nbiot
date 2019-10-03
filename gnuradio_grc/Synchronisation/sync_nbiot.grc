@@ -763,7 +763,7 @@
     </param>
     <param>
       <key>file</key>
-      <value>/home/gnuradio/Desktop/Records/SDRSharp_20190522_083545Z_737686889Hz_IQ-1-norm.wav</value>
+      <value>/home/gnuradio/Desktop/repo/bachelor2019_sdr-nbiot/Records_used/standard/SDRSharp_20190522_083545Z_737686889Hz_IQ-1-1s.wav</value>
     </param>
     <param>
       <key>_coordinate</key>
@@ -1534,7 +1534,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(1072, 44)</value>
+      <value>(1080, 28)</value>
     </param>
     <param>
       <key>gui_hint</key>

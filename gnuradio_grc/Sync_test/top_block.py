@@ -3,7 +3,7 @@
 ##################################################
 # GNU Radio Python Flow Graph
 # Title: Top Block
-# Generated: Thu Oct  3 09:13:40 2019
+# Generated: Thu Oct  3 20:57:34 2019
 ##################################################
 
 from distutils.version import StrictVersion
@@ -73,7 +73,7 @@ class top_block(gr.top_block, Qt.QWidget):
         self.samp_rate = samp_rate = 10000000
         self.nb_frame = nb_frame = 12
         self.lo_gain = lo_gain = 5
-        self.lo_freq = lo_freq = -306900
+        self.lo_freq = lo_freq = -620011
         self.iot_samp_rate = iot_samp_rate = 1920000
 
         ##################################################
@@ -102,7 +102,7 @@ class top_block(gr.top_block, Qt.QWidget):
         self._lo_gain_range = Range(1, 100, 1, 5, 200)
         self._lo_gain_win = RangeWidget(self._lo_gain_range, self.set_lo_gain, 'lo_gain', "counter_slider", int)
         self.top_layout.addWidget(self._lo_gain_win)
-        self._lo_freq_range = Range(-750000, 600000, 1, -306900, 20)
+        self._lo_freq_range = Range(-750000, 600000, 1, -620011, 20)
         self._lo_freq_win = RangeWidget(self._lo_freq_range, self.set_lo_freq, 'lo_freq', "counter_slider", float)
         self.top_layout.addWidget(self._lo_freq_win)
         self.rational_resampler_xxx_0 = filter.rational_resampler_ccc(
@@ -310,7 +310,7 @@ class top_block(gr.top_block, Qt.QWidget):
         self.nbiot_custom_fft_0 = nbiot.custom_fft()
         self.low_pass_filter_0 = filter.fir_filter_ccf(1, firdes.low_pass(
         	lo_gain, samp_rate, 210000, 10000, firdes.WIN_RECTANGULAR, 6.76))
-        self.blocks_wavfile_source_0 = blocks.wavfile_source('/home/gnuradio/Desktop/Records/test/SDRSharp_20190926_131406Z_738000000Hz_IQ_2.wav', False)
+        self.blocks_wavfile_source_0 = blocks.wavfile_source('/home/gnuradio/Desktop/Records/SDRSharp_20190522_083545Z_737686889Hz_IQ-1.wav', False)
         self.blocks_throttle_0_0 = blocks.throttle(gr.sizeof_gr_complex*1, samp_rate,True)
         self.blocks_null_sink_0 = blocks.null_sink(gr.sizeof_gr_complex*1)
         self.blocks_multiply_xx_0_0 = blocks.multiply_vcc(1)

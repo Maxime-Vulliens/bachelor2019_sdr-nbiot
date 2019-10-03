@@ -3,7 +3,7 @@
 ##################################################
 # GNU Radio Python Flow Graph
 # Title: Top Block
-# Generated: Wed Oct  2 20:24:14 2019
+# Generated: Thu Oct  3 20:54:18 2019
 ##################################################
 
 from distutils.version import StrictVersion
@@ -310,7 +310,7 @@ class top_block(gr.top_block, Qt.QWidget):
         self.nbiot_custom_fft_0 = nbiot.custom_fft()
         self.low_pass_filter_0 = filter.fir_filter_ccf(5, firdes.low_pass(
         	lo_gain, samp_rate, 210000, 10000, firdes.WIN_RECTANGULAR, 6.76))
-        self.blocks_wavfile_source_0 = blocks.wavfile_source('/home/gnuradio/Desktop/Records/SDRSharp_20190522_083545Z_737686889Hz_IQ-1-norm.wav', False)
+        self.blocks_wavfile_source_0 = blocks.wavfile_source('/home/gnuradio/Desktop/repo/bachelor2019_sdr-nbiot/Records_used/standard/SDRSharp_20190522_083545Z_737686889Hz_IQ-1-1s.wav', False)
         self.blocks_throttle_0_0 = blocks.throttle(gr.sizeof_gr_complex*1, samp_rate,True)
         self.blocks_null_sink_0 = blocks.null_sink(gr.sizeof_gr_complex*1)
         self.blocks_multiply_xx_0_0 = blocks.multiply_vcc(1)

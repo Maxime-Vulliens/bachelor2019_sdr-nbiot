@@ -242,7 +242,7 @@
     </param>
     <param>
       <key>value</key>
-      <value>12</value>
+      <value>2</value>
     </param>
     <param>
       <key>_enabled</key>
@@ -298,33 +298,6 @@
     </param>
   </block>
   <block>
-    <key>variable</key>
-    <param>
-      <key>comment</key>
-      <value></value>
-    </param>
-    <param>
-      <key>_enabled</key>
-      <value>True</value>
-    </param>
-    <param>
-      <key>_coordinate</key>
-      <value>(456, 588)</value>
-    </param>
-    <param>
-      <key>_rotation</key>
-      <value>0</value>
-    </param>
-    <param>
-      <key>id</key>
-      <value>nb_subcarrier</value>
-    </param>
-    <param>
-      <key>value</key>
-      <value>1</value>
-    </param>
-  </block>
-  <block>
     <key>variable_qtgui_range</key>
     <param>
       <key>comment</key>
@@ -340,7 +313,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(456, 652)</value>
+      <value>(408, 692)</value>
     </param>
     <param>
       <key>gui_hint</key>
@@ -352,11 +325,11 @@
     </param>
     <param>
       <key>id</key>
-      <value>nb_subcarrier_0</value>
+      <value>nb_subcarrier</value>
     </param>
     <param>
       <key>label</key>
-      <value>nb_subcarrier_0</value>
+      <value>nb_subcarrier</value>
     </param>
     <param>
       <key>min_len</key>
@@ -385,6 +358,33 @@
     <param>
       <key>widget</key>
       <value>counter_slider</value>
+    </param>
+  </block>
+  <block>
+    <key>variable</key>
+    <param>
+      <key>comment</key>
+      <value></value>
+    </param>
+    <param>
+      <key>_enabled</key>
+      <value>True</value>
+    </param>
+    <param>
+      <key>_coordinate</key>
+      <value>(408, 628)</value>
+    </param>
+    <param>
+      <key>_rotation</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>id</key>
+      <value>nb_subcarrier_1</value>
+    </param>
+    <param>
+      <key>value</key>
+      <value>1</value>
     </param>
   </block>
   <block>
@@ -478,33 +478,6 @@
     </param>
   </block>
   <block>
-    <key>variable</key>
-    <param>
-      <key>comment</key>
-      <value></value>
-    </param>
-    <param>
-      <key>_enabled</key>
-      <value>True</value>
-    </param>
-    <param>
-      <key>_coordinate</key>
-      <value>(312, 588)</value>
-    </param>
-    <param>
-      <key>_rotation</key>
-      <value>0</value>
-    </param>
-    <param>
-      <key>id</key>
-      <value>subarrier_index</value>
-    </param>
-    <param>
-      <key>value</key>
-      <value>0</value>
-    </param>
-  </block>
-  <block>
     <key>variable_qtgui_range</key>
     <param>
       <key>comment</key>
@@ -520,7 +493,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(312, 652)</value>
+      <value>(264, 692)</value>
     </param>
     <param>
       <key>gui_hint</key>
@@ -532,11 +505,11 @@
     </param>
     <param>
       <key>id</key>
-      <value>subarrier_index_0</value>
+      <value>subarrier_index</value>
     </param>
     <param>
       <key>label</key>
-      <value>subarrier_index_0</value>
+      <value>subarrier_index</value>
     </param>
     <param>
       <key>min_len</key>
@@ -565,6 +538,33 @@
     <param>
       <key>widget</key>
       <value>counter_slider</value>
+    </param>
+  </block>
+  <block>
+    <key>variable</key>
+    <param>
+      <key>comment</key>
+      <value></value>
+    </param>
+    <param>
+      <key>_enabled</key>
+      <value>True</value>
+    </param>
+    <param>
+      <key>_coordinate</key>
+      <value>(264, 628)</value>
+    </param>
+    <param>
+      <key>_rotation</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>id</key>
+      <value>subarrier_index_1</value>
+    </param>
+    <param>
+      <key>value</key>
+      <value>0</value>
     </param>
   </block>
   <block>
@@ -964,7 +964,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(696, 664)</value>
+      <value>(696, 592)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -1231,7 +1231,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(992, 4)</value>
+      <value>(784, 4)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -1270,7 +1270,7 @@
     </param>
     <param>
       <key>_enabled</key>
-      <value>True</value>
+      <value>1</value>
     </param>
     <param>
       <key>_coordinate</key>
@@ -1309,7 +1309,7 @@
     </param>
     <param>
       <key>_enabled</key>
-      <value>True</value>
+      <value>1</value>
     </param>
     <param>
       <key>_coordinate</key>
@@ -1348,7 +1348,7 @@
     </param>
     <param>
       <key>_enabled</key>
-      <value>True</value>
+      <value>1</value>
     </param>
     <param>
       <key>_coordinate</key>
@@ -1387,7 +1387,7 @@
     </param>
     <param>
       <key>_enabled</key>
-      <value>True</value>
+      <value>1</value>
     </param>
     <param>
       <key>_coordinate</key>
@@ -1450,7 +1450,7 @@
     </param>
     <param>
       <key>_enabled</key>
-      <value>0</value>
+      <value>1</value>
     </param>
     <param>
       <key>fftsize</key>
@@ -1458,11 +1458,11 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(1120, 8)</value>
+      <value>(1120, 16)</value>
     </param>
     <param>
       <key>gui_hint</key>
-      <value></value>
+      <value>tab@0</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -1654,7 +1654,7 @@
     </param>
     <param>
       <key>nconnections</key>
-      <value>3</value>
+      <value>2</value>
     </param>
     <param>
       <key>showports</key>
@@ -1848,7 +1848,7 @@
     </param>
     <param>
       <key>gui_hint</key>
-      <value></value>
+      <value>tab@2</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -2215,7 +2215,7 @@
     </param>
     <param>
       <key>gui_hint</key>
-      <value></value>
+      <value>tab@2</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -2582,7 +2582,7 @@
     </param>
     <param>
       <key>gui_hint</key>
-      <value></value>
+      <value>tab@1</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -2945,7 +2945,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(1112, 200)</value>
+      <value>(1112, 220)</value>
     </param>
     <param>
       <key>gui_hint</key>
@@ -3296,7 +3296,7 @@
     </param>
     <param>
       <key>_enabled</key>
-      <value>True</value>
+      <value>1</value>
     </param>
     <param>
       <key>fbw</key>
@@ -3333,6 +3333,121 @@
     <param>
       <key>type</key>
       <value>ccc</value>
+    </param>
+  </block>
+  <block>
+    <key>qtgui_tab_widget</key>
+    <param>
+      <key>alias</key>
+      <value></value>
+    </param>
+    <param>
+      <key>comment</key>
+      <value></value>
+    </param>
+    <param>
+      <key>_enabled</key>
+      <value>True</value>
+    </param>
+    <param>
+      <key>_coordinate</key>
+      <value>(544, 708)</value>
+    </param>
+    <param>
+      <key>gui_hint</key>
+      <value></value>
+    </param>
+    <param>
+      <key>_rotation</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>id</key>
+      <value>tab</value>
+    </param>
+    <param>
+      <key>label0</key>
+      <value>Frequency</value>
+    </param>
+    <param>
+      <key>label1</key>
+      <value>Time</value>
+    </param>
+    <param>
+      <key>label10</key>
+      <value>Tab 10</value>
+    </param>
+    <param>
+      <key>label11</key>
+      <value>Tab 11</value>
+    </param>
+    <param>
+      <key>label12</key>
+      <value>Tab 12</value>
+    </param>
+    <param>
+      <key>label13</key>
+      <value>Tab 13</value>
+    </param>
+    <param>
+      <key>label14</key>
+      <value>Tab 14</value>
+    </param>
+    <param>
+      <key>label15</key>
+      <value>Tab 15</value>
+    </param>
+    <param>
+      <key>label16</key>
+      <value>Tab 16</value>
+    </param>
+    <param>
+      <key>label17</key>
+      <value>Tab 17</value>
+    </param>
+    <param>
+      <key>label18</key>
+      <value>Tab 18</value>
+    </param>
+    <param>
+      <key>label19</key>
+      <value>Tab 19</value>
+    </param>
+    <param>
+      <key>label2</key>
+      <value>fft</value>
+    </param>
+    <param>
+      <key>label3</key>
+      <value>Tab 3</value>
+    </param>
+    <param>
+      <key>label4</key>
+      <value>Tab 4</value>
+    </param>
+    <param>
+      <key>label5</key>
+      <value>Tab 5</value>
+    </param>
+    <param>
+      <key>label6</key>
+      <value>Tab 6</value>
+    </param>
+    <param>
+      <key>label7</key>
+      <value>Tab 7</value>
+    </param>
+    <param>
+      <key>label8</key>
+      <value>Tab 8</value>
+    </param>
+    <param>
+      <key>label9</key>
+      <value>Tab 9</value>
+    </param>
+    <param>
+      <key>num_tabs</key>
+      <value>3</value>
     </param>
   </block>
   <connection>
@@ -3484,11 +3599,5 @@
     <sink_block_id>nbiot_npss_sync_0</sink_block_id>
     <source_key>0</source_key>
     <sink_key>0</sink_key>
-  </connection>
-  <connection>
-    <source_block_id>rational_resampler_xxx_0</source_block_id>
-    <sink_block_id>qtgui_freq_sink_x_0</sink_block_id>
-    <source_key>0</source_key>
-    <sink_key>2</sink_key>
   </connection>
 </flow_graph>
