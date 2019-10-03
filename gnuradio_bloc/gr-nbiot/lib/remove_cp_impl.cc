@@ -214,7 +214,7 @@ namespace gr {
     /*
       This method is used to copy input buffer to the output buffer by removing CP
 
-      param [out] out  : output buffer, must have a size of 1720 complex values
+      param [out] out  : output buffer, must have a size of 1792 complex values
       param [in] in    : input buffer, must have 1920samples
     
       Description         : Subframe = 1920 Samples
