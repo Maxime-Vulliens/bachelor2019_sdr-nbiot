@@ -1,0 +1,47 @@
+'''Basic NB-IoT example with Vodafone
+
+########## FIRST EXAMPLE ##########
+find on pycom documentation
+
+from network import LTE
+lte = LTE()
+lte.attach(band=20, apn="nb.inetd.gdsp")
+while not lte.isattached():
+    time.sleep(0.25)
+lte.connect()       # start a data session and obtain an IP address
+while not lte.isconnected():
+    time.sleep(0.25)
+
+# now use socket as usual...
+'''
+'''
+Command used :
+print(lteM.send_at_cmd('ATI1'))  -> get status and modem firmware
+
+lteset = lteM.send_at_cmd('AT+SQNCTM?')
+print("LTE set to {}".format(lteset))  -> get current carrier
+
+send_at_cmd_pretty('AT+CEREG?') -> same as isattached
+send_at_cmd_pretty('AT!="showphy"')     # get the PHY status
+send_at_cmd_pretty('AT!="fsm"')         # get the System FSM
+
+lteM.send_at_cmd('AT+CFUN=0')       --> desactivate modem
+lteM.send_at_cmd('AT!="clearscanconfig"')   --> clear current config
+lteM.send_at_cmd('AT!="addscanfreq band=5 dl-earfcn=6430"')  --> define band anf dl_earfcn factor
+lteM.send_at_cmd('AT!="zsp0:npc 1"')
+lteM.send_at_cmd('AT+CGDCONT=1,"IP","test123"')     --> Set ip mode and apn
+lteM.send_at_cmd('AT+CFUN=1')                   --> enable modem
+
+This command are need by sequans for support
+print(lteM.send_at_cmd('AT+CEREG?'))
+print(lteM.send_at_cmd('AT+SQNMONI=9'))
+
+# Get the current LTE signal quality
+squallteM = lteM.send_at_cmd('AT+CSQ').strip().split()
+rquallteM = int(squallteM[1].split(',')[0])
+# Evaluate the returned signal quality Data
+rssilteM = 113 - ((rquallteM) * 2)
+ltesqual = ("LTE RSSI: -{} dbM".format(rssilteM))
+print(ltesqual)
+
+'''
