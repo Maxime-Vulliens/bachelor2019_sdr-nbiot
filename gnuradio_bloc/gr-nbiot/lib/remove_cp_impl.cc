@@ -22,10 +22,8 @@
 #include "config.h"
 #endif
 
-#include "global.h"
 #include <gnuradio/io_signature.h>
 #include "remove_cp_impl.h"
-
 
 // Use this define to activate debug printf
 //#define _DEBUG
@@ -47,7 +45,6 @@ namespace gr {
       : gr::block("remove_cp",
               gr::io_signature::make(1, 1, sizeof(gr_complex)),
               gr::io_signature::make(1, 1, sizeof(gr_complex))),
-        foud_frame_start(false),
         buffer_in_index(0),
         buffer_out_size(0),
         frame_number(0),
@@ -74,10 +71,12 @@ namespace gr {
     void
     remove_cp_impl::forecast (int noutput_items, gr_vector_int &ninput_items_required)
     {
-
+      // if buffer out already contains number of output need, we not need any input stream
       if (buffer_out_size > noutput_items){
         ninput_items_required[0] = 0;
       }else{
+        // Otherwise the input size needed is 960/896 more than output to generate
+        // This is due to the CP extract process 
         ninput_items_required[0] = (noutput_items >= 1024) ? int(noutput_items * 960 / 896) : 1097 ;
       }
     }
@@ -169,7 +168,7 @@ namespace gr {
           std::cout << "buffer in index " << buffer_in_index << "  buffer out size : " << buffer_out_size 
               << "\n";
 #endif 
-
+          // Add specifig tags to the stream
           if (subframe_number != -1){
             if (subframe_number == NPSS_FRAME_INDEX){
               add_item_tag(0,
@@ -191,7 +190,7 @@ namespace gr {
                 pmt::from_long(subframe_number),
                 pmt::string_to_symbol(this->name() ));
             }
-
+            // increment subframe number
             subframe_number = (subframe_number+1)%SUBFRAMES_PER_FRAME;
           }
 
@@ -212,15 +211,25 @@ namespace gr {
     }
 
 
-  /* Subframe = 1920 Samples
-     Slot = 960 sampless
-     For each slot :  
-        --------------------------------------------------------------------
-        | CP1   | OFDM Symbol |  CP | OFDM Symbol |   *5 CP + OFDM Symbol  |
-        --------------------------------------------------------------------
-          CP1 = 10samples |  OFDM Symbol = 128samples |  CP = 9samples
+    /*
+      This method is used to copy input buffer to the output buffer by removing CP
+
+      param [out] out  : output buffer, must have a size of 1720 complex values
+      param [in] in    : input buffer, must have 1920samples
+    
+      Description         : Subframe = 1920 Samples
+                            Slot = 960 sampless
+                            For each slot :  
+                            --------------------------------------------------------------------
+                            | CP1   | OFDM Symbol |  CP | OFDM Symbol |   *5 CP + OFDM Symbol  |
+                            --------------------------------------------------------------------
+                             CP1 = 10samples |  OFDM Symbol = 128samples |  CP = 9samples
+
+                             This method is complex because the input buffer work as a circular buffer
+                             the index give is not necesssary the start of the array. So I need to 
+                             track the end of the input buffer to loop through
     */
-    long remove_cp_impl::copy_samples_from_in_to_out(gr_complex* out, const gr_complex* in)
+    void remove_cp_impl::copy_samples_from_in_to_out(gr_complex* out, const gr_complex* in)
     {
       // get copy of in/out stream pointer
       gr_complex* in_bis = (gr_complex*)in;
@@ -231,13 +240,13 @@ namespace gr {
       int cp_length = 0;
       int symbol_length = 0;
 
+      // Loop for each OFDM symbol
       for (int j = 0; j < SLOT_PER_SUBFRAME ; ++j){
         for (int i = 0; i < SYMBOL_PER_SLOT; ++i){
 
           remaining_size = SAMPLES_PER_SUBFRAME - buffer_in_index;
           cp_length = (i == 0) ? CP_FIRST : CP_NORMAL;
           symbol_length = USED_SAMPLES_PER_SYMBOL + cp_length;
-          
         
           if (buffer_in_index + symbol_length >= SAMPLES_PER_SUBFRAME){
             if (buffer_in_index + cp_length >= SAMPLES_PER_SUBFRAME){

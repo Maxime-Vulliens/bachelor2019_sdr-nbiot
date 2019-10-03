@@ -37,6 +37,7 @@ namespace gr {
 
       // Variable to execute an fft
       gr::fft::fft_complex  *d_fft;
+      
       // Need to reference in and out buffer of fft
       gr_complex        *buffer_in;
       gr_complex        *buffer_out;

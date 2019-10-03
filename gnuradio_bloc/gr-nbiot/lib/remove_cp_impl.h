@@ -24,6 +24,8 @@
 #include <nbiot/remove_cp.h>
 #include <queue>
 
+#include "global.h"
+
 namespace gr {
   namespace nbiot {
 
@@ -31,10 +33,9 @@ namespace gr {
     {
      private:
       // private variables
-      bool foud_frame_start;
-      int frame_number;
-      int counter;
-      int subframe_number;
+      int frame_number;    // keep the current frame number
+      int counter;         // keep nb of generated output since last tag
+      int subframe_number; // keep the subframe number
 
       // queue to keep tags
       std::queue<int> subframes_end;
@@ -47,7 +48,9 @@ namespace gr {
       gr_complex buffer_out[10*SAMPLES_PER_SUBFRAME_WITHOUT_CP];
       int buffer_out_size;
 
-      long copy_samples_from_in_to_out(gr_complex* out, const gr_complex* in);
+      // Used to copy samples from buffer in to buffer out
+      // This method make the CP extract
+      void copy_samples_from_in_to_out(gr_complex* out, const gr_complex* in);
 
      public:
       remove_cp_impl();

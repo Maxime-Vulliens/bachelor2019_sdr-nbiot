@@ -27,40 +27,44 @@
 namespace gr {
   namespace nbiot {
 
-    //#define PSS_SAMPLES_PER_SYMBOL      (CP_NORMAL+FFT_LEN) // 137
-    #define NB_SUBCARRIERS              (12)
-    #define NSSS_SUBFRAMES              (11)
-    #define NSSS_SYMBOLS                (NSSS_SUBFRAMES*NB_SUBCARRIERS) // 132
-    //#define NSSS_SAMPLES                (NSSS_SYMBOLS*PSS_SAMPLES_PER_SYMBOL)   
-    #define NSSS_OFDM_SYMBOLS           (NSSS_SYMBOLS*NB_SUBCARRIERS)   
+    // nb OFDM symbol per NSSS signal
+    #define NSSS_NB_OFDM_SYMBOLS        (11)
 
+    // nb samples per NSSS signal
+    #define NSSS_NB_SAMPLE              (NSSS_NB_OFDM_SYMBOLS*NB_SUBCARRIERS) // 132  
+
+    // nb of different cell id 
     #define NSSS_CELLS_ID               (504)
 
     class nsss_decode_impl : public nsss_decode
     {
      private:
-      #define DUMP_FILE "dump_nsss_sync.log"
-      // Nothing to declare in this block.
-      const int N_CELL_ID = 1;
 
+      // Uses to create a dump file
+      #define DUMP_FILE "dump_nsss_sync.log"
+
+      // Used to pre-compute all 2016 sequences
       void compute_sequence(int frame_number, int cell_number, gr_complex* seq_array);
+
+      // Used to correlate
       gr_complex cross_ceorrelate(const gr_complex* in, int &cell_number, int &frame_number);
 
+      // Keep pre-compute sequences
       gr_complex zadoff_seq[NSSS_CELLS_ID][4][NSSS_NB_SAMPLES];
       
-      bool detect_nsss_frame;
-      bool buffering = false;
+      bool detect_nsss_frame;     // Used to inform detection of NSSS subframe
+      bool buffering = false;     // Used to bufferinf if NSSS sequence is not complete in input stream
 
-      int nsss_offset;
-      int nsss_delay_in_stream;
+      int nsss_offset;            // Keep nsss offset absolute offset
+      int nsss_delay_in_stream;   // keep nsss offset in current input stream
       int nb_samples_buffered;
 
-      float average_correlation;
-      int nb_correlation;
+      float average_correlation;    // keep average correlation magnitude
+      int nb_correlation;           // keep the nb of correlation comput
 
-      FILE *fdump;
+      FILE *fdump;    // keep reference of log file
       
-      gr_complex* buffer;
+      gr_complex* buffer; // Used to buffered NSSS frame if needed
 
      public:
       nsss_decode_impl();

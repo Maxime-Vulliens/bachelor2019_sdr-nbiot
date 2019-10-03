@@ -54,8 +54,8 @@ namespace gr {
       fdump = fopen( DUMP_FILE,"a+");
 
       // compute all possible zadoff chu sequence
-      for (int cell_id = 1 ; cell_id < NSSS_CELLS_ID; cell_id++){    // cell id
-        for (int frame_nb = 0 ; frame_nb < 4; frame_nb++){  // frame number
+      for (int cell_id = 1 ; cell_id < NSSS_CELLS_ID; cell_id++){    
+        for (int frame_nb = 0 ; frame_nb < 4; frame_nb++){  
           compute_sequence(frame_nb,cell_id,(gr_complex*) &zadoff_seq[cell_id][frame_nb]);
         }
       }
@@ -75,14 +75,23 @@ namespace gr {
      */
     nsss_decode_impl::~nsss_decode_impl()
     {
+      // delete allocated memorx
       delete[] buffer;
 
+      // close log file
       if (fdump) {
         fclose(fdump);
         fdump = nullptr;
       }
     }
 
+
+    /*
+     * This method is used to compute reference zadoff-chu sequence
+     * param [in] frame_number   : frame_number to compute sequence for
+     * param [in] cell_number    : cell number to compute sequence for
+     * param [in/out] seq_array  : save the reference sequence computed
+    */
     void nsss_decode_impl::compute_sequence(int frame_number, int cell_number, gr_complex* seq_array)
     {
       // Static binary sequence define by the NB-IoT Standard
@@ -127,16 +136,22 @@ namespace gr {
     }
 
 
-
+    /*
+      This method is use to detect a specific cell id and frame number by applpying a correlation function
+      param [in] in               : input stream
+      param [in/out] cell_number  : cell_number find
+      param [in/out] frame_number : frame number find
+      return gr_complex   : current correlation value Ak(t)
+    */
     gr_complex nsss_decode_impl::cross_ceorrelate(const gr_complex* in, int &cell_number, int &frame_number)
     {
 
       gr_complex a[NSSS_CELLS_ID][4];
 
+      // compute all correlation
       for (int cell=1; cell<NSSS_CELLS_ID; cell++ ) {
         for (int frame=0; frame<4; frame++) {
-          volk_32fc_x2_conjugate_dot_prod_32fc( &a[cell][frame], in, zadoff_seq[cell][frame], NSSS_SYMBOLS );
-          //std::cout << "CORREL - cell " << cell << "  frame " << frame << " correlation :" << a[cell][frame] << "\n";
+          volk_32fc_x2_conjugate_dot_prod_32fc( &a[cell][frame], in, zadoff_seq[cell][frame], NSSS_NB_SAMPLE );
         }
       }
 
@@ -154,6 +169,7 @@ namespace gr {
         }
       }
 
+      // if the peak is above the selected threshold, we have find a cell id and frame number
       if (magnitude_max > NSSS_MAGNITUDE_THRESHOLD){
         nb_correlation++;
         average_correlation = ((average_correlation * (nb_correlation-1)) + magnitude_max ) / nb_correlation;
@@ -165,6 +181,7 @@ namespace gr {
          }
       }
 
+      // return max correlation
       return a[cell_number][frame_number];
     }
 
@@ -178,18 +195,12 @@ namespace gr {
       gr_complex *out_0 = (gr_complex *) output_items[0];
 
       // local variables
-      gr_complex conjugate_res;
-      gr_complex default_corr(0,0);
-      gr_complex seq_array[NSSS_NB_SAMPLES];
-      gr_complex max_conjugate_res;
+      gr_complex conjugate_res;   // used to get the current correlation
+      gr_complex default_corr(0,0); // used has default value when the NSSS subframe is not detected
 
-      float max_abs_correlation = 0;
-
-      int current_frame = 0;
-      int nb_generated_out = 0;
       int remaining_samples = noutput_items;
-      int cell_number = 0;
-      int frame_number = 0;
+      int cell_number = 0;    // used to find cell id
+      int frame_number = 0;   // used to find frame number
       
 
       // Check if we are in buffering mode (this mean that a part of the NSSS subframe is already buffered)
@@ -239,7 +250,7 @@ namespace gr {
         }
       }
 
-      // Check if there is a nss frame
+      // Check if there is a nsss frame
       if(detect_nsss_frame){
         
         // Check if there is all nsss sequence in input stream

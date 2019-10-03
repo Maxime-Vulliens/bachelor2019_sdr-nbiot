@@ -28,45 +28,50 @@
 namespace gr {
   namespace nbiot {
 
+    // Nb OFDM symbol per PSS signals
     #define PSS_SYMBOLS (11)
 
     class npss_sync_impl : public npss_sync
     {
      private:
+
+      // Used to create a log file
       #define DUMP_FILE "dump_npss_sync.log"
 
       // Code-cover for Zadoff-Chu sequence
       const int CODE_COVER_NPSS[PSS_SYMBOLS]={1,1,1,1,-1,-1,1,1,1,-1,1};
       const float CORR_WEIGHT = 0;  // used to smooth correlation function / o = no smoothing
-      const int THRESHOLD_VALUE = 20;
+      const int THRESHOLD_VALUE = 20; // treshold value to detect a NPSS peak
 
-
-      float max_abs_correlation;
+      // Keep  average of correlation magnitude
       float average_abs_correlation;
 
-      int first_loop;
-      int nb_items;
-      int fine_mode;
-      int step;
-      int last_nb_items;
-      int last_diff_nb_items;
-      int nb_sample_treshold_detect;
-      int npss_start_samples;
-      int counter;
-      int set_tag;
-      int alert_generator;
 
-      float max_magnitude;
-      float arg_at_peak;
-      int offset_at_peak;
+      int first_loop;         // different behaviour on first loop
+      int nb_items;           // keep nb items processed to compute average correlation
+      int fine_mode;          // true when correlation is above the threshold, false otherwise
+      int step;               // This parameter can be used to make biggest step when we are far from NPSS nignal - not used for now
+      int last_nb_items;      // Keep the last offset where we detect a peak
+      int last_diff_nb_items;       // Compute number of samples between 2 lasts peaks
+      int nb_sample_treshold_detect;  // keep the offset when we pass the threshold limit
+      int npss_start_samples;         // Keep the offset of npss start to generate tags
+      int counter;                    // used to count the subframe number
+      int set_tag;                    // Used to start tag generation
+      int alert_generator;            // Used to generate an alarm when we miss an NPSS signal
 
-      float base_freq;
-      float freq_sent;
+      // these variables are used to save the offset where correlation has max magnitude
+      float max_magnitude;   // max magnitude find
+      float arg_at_peak;     // keep argument at peak to compute cfo offset
+      int offset_at_peak;    // keep offset at peak
 
-      gr_complex smooth_correlation;
+      float base_freq;       // Used to correct cfo
+      float freq_sent;       // Used to remember last cfo value send
 
-      FILE *fdump;
+      gr_complex smooth_correlation;  // Used to smooth the correlation
 
+      FILE *fdump;  // reference to the log file
+
+      // THis method is used to compute the correlation
       gr_complex auto_corelate( int k,const gr_complex* pss_seq, int sample_per_symbol);
 
      public:

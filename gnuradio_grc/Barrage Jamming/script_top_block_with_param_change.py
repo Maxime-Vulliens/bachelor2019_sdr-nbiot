@@ -1,3 +1,12 @@
+###############################################################
+# Author : Maxime Vulliens
+# Date : 21.09.2019
+#
+# Description : used to execute a GNU Radio diagram multiple
+# times with variatiion of parameters between each round
+#
+###############################################################
+
 import numpy
 import shlex
 from subprocess import Popen, PIPE
@@ -6,7 +15,7 @@ from threading import Timer
 
 cmd = 'python top_block.py'
 
-
+# this method is used to execute a shell cmd with a specific timeout
 def run(cmd, timeout_sec):
     proc = Popen(shlex.split(cmd), stdout=PIPE, stderr=PIPE)
     timer = Timer(timeout_sec, proc.kill)
@@ -19,6 +28,7 @@ def run(cmd, timeout_sec):
     return stdout
 
 
+# this method is used to replace data in "top_python.py" file
 def replace_data(str_to_find,str_to_replace):
 	fin = open("top_block.py", "rt")
 	data = fin.read()
@@ -33,6 +43,8 @@ def replace_data(str_to_find,str_to_replace):
 	fin.close()
 
 
+# main start here
+# loop to execute the flow graph with differen noise gain
 
 for noise_gain in numpy.arange(0.1,0.205,0.005):
 

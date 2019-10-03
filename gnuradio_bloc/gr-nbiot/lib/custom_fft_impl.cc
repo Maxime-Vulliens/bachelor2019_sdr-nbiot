@@ -149,6 +149,7 @@ namespace gr {
               pmt::from_long(subframe_number),
               pmt::string_to_symbol(this->name() ));
           }
+            // increment subframe number
             subframe_number = (subframe_number+1)%SUBFRAMES_PER_FRAME;
           }
 

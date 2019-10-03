@@ -28,6 +28,9 @@
 #include <volk/volk.h>
 #include <gnuradio/fft/fft.h>
 
+
+// #define MORE_LOG 
+
 namespace gr {
   namespace nbiot {
 
@@ -50,7 +53,6 @@ namespace gr {
     {
       // private variables initialization
       first_loop = 1;
-      max_abs_correlation = 0;
       nb_items = 0;
       average_abs_correlation = 0;
       fine_mode = 0;
@@ -64,8 +66,6 @@ namespace gr {
       // Create a dump file
       fdump = fopen( DUMP_FILE,"a+");
 
-
-
       // This is used to create a message port for this block
       message_port_register_out(pmt::mp("npss_sync"));
       message_port_register_out(pmt::mp("freq"));
@@ -76,6 +76,8 @@ namespace gr {
      */
     npss_sync_impl::~npss_sync_impl()
     {
+
+      // close file if any
       if (fdump) {
         fclose(fdump);
         fdump = nullptr;
@@ -124,10 +126,10 @@ namespace gr {
       gr_complex *out_clean = output_items.size()>1?( gr_complex*) output_items[1]:nullptr;
 
       // Local variables initialization
-      const int k=3;  // lag parameter
-      const float pi = std::acos(-1);
+      const int k=3;                    // lag parameter
+      const float pi = std::acos(-1);   // pi required to compute cfo offset
       int remaining_samples = noutput_items;
-      int nb_generated_out = 0;
+      int nb_generated_out = 0;       
       gr_complex current_correlation; // resulting correlation 
 
       
@@ -138,7 +140,7 @@ namespace gr {
         if (set_tag && (nitems_read(0) + nb_generated_out) == npss_start_samples + SAMPLES_PER_SUBFRAME * counter ){ 
 
           // Update tag counter
-          if (counter == 10)
+          if (counter == SUBFRAMES_PER_FRAME)
             counter = 1;
           else
             counter++;
@@ -150,6 +152,7 @@ namespace gr {
 
             // Add subframe tags to the stream, 2 types are generated
             //  frame used for subframe 0 / sub_frame used for others
+            // the counter have an offset of 4. (it set to 1 when npss is detected)
             if (counter == 6){
               add_item_tag(1,
                             nitems_read(0) + nb_generated_out,
@@ -194,8 +197,6 @@ namespace gr {
             offset_at_peak = nitems_read(0) + nb_generated_out;
           }
 
-          
-
           // Detect if current correlation is under the treshold value
           // In this case change working mode and add a tag
           if (abs(smooth_correlation) / average_abs_correlation < THRESHOLD_VALUE){
@@ -215,25 +216,27 @@ namespace gr {
             float freq_offset = (float)64/19200.0/pi*arg_at_peak*15000.0;
             base_freq += freq_offset; ///30.0 ; // smooth frequency shift
 
+            // If the freq_offset has changed : send it through message port
             if (base_freq != freq_sent){
               message_port_pub(pmt::mp("freq"),pmt::mp(freq_offset));
               freq_sent = base_freq;
             }
 
+#ifdef MORE_LOG
+            // Generate more log
             std::cout << "max_correlation : " << max_magnitude << "normalized correlation : " << max_magnitude / average_abs_correlation << "  offest : " << offset_at_peak << "\n";
+#endif
 
+            // keep offset of last peak and the difference between 2 last peaks
             last_diff_nb_items =  offset_at_peak - last_nb_items;
             last_nb_items = offset_at_peak;
 
-           
-
+            // Initialize private variable for nexgt frame
             counter = 1;
             alert_generator = 0;
             max_magnitude = 0; 
-            arg_at_peak = 0;
-                   
+            arg_at_peak = 0; 
            }
-
 
         }else{
 
@@ -246,8 +249,6 @@ namespace gr {
               // Frame numbering
               set_tag = 1;
             }
-
-            
 
             // Update variables
             //last_diff_nb_items = nb_items - last_nb_items;
@@ -264,9 +265,7 @@ namespace gr {
 
             // Keep sample offset of threshold detect to compute start of npss
             nb_sample_treshold_detect = nitems_read(0) + nb_generated_out;
-            
           }
-
         }
 
         /******************************************************************************************************
@@ -300,11 +299,6 @@ namespace gr {
            }
          }
 
-        // keep maximum correlation
-        if (abs(current_correlation) > max_abs_correlation){
-          max_abs_correlation = abs(current_correlation);
-        }
-
         // comput new abs(correlation) average
         if (nb_items == 0){
           average_abs_correlation = abs(smooth_correlation);
@@ -313,7 +307,6 @@ namespace gr {
           average_abs_correlation = ((average_abs_correlation*nb_items) + abs(smooth_correlation)) / (nb_items+1);
           nb_items++ ;
         }
-
       }
 
       // Tell runtime system how many output items we produced.

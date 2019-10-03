@@ -18,6 +18,14 @@
  * Boston, MA 02110-1301, USA.
  */
 
+
+
+/***************************************************************
+ * NOT WORKING YET !!!
+ **************************************************************/
+
+
+
 #ifndef INCLUDED_NBIOT_NPSS_SYNC_ADVANCED_IMPL_H
 #define INCLUDED_NBIOT_NPSS_SYNC_ADVANCED_IMPL_H
 
