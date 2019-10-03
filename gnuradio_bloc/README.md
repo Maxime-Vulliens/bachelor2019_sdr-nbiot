@@ -4,7 +4,7 @@
 
 - Logiciels requis :
   - GNU Radio : gr-nbiot est un module pour GNU Radio.
-  - gr-lte : c'est une librairie pour GNU Radio disponible sur github à l'adresse suivante : ... cette librairie est nécessaire à l'exécution des diagrammes de ce "repository".
+  - gr-lte : c'est une librairie pour GNU Radio disponible sur github à l'adresse suivante : https://github.com/kit-cel/gr-lte cette librairie est nécessaire à l'exécution des diagrammes de ce "repository".
 
 
 
